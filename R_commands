@@ -1,0 +1,143 @@
+## Exercise on Jan 22, 2019
+
+par=(family='sans')
+
+McD<- read.table(file = "~/Desktop/McD.tsv", row.names = 1, header = TRUE)
+McD<- read.table(file = "~/Desktop/McDonald_data.1.txt", row.names = 1, header = TRUE)
+
+
+head(McD)
+rownames(McD)
+colnames(McD)
+head(McD)
+
+McDrank<- McD
+
+head(McDrank)
+
+McD[,8]<- NULL
+McD[,6]<- NULL
+McD[,4]<- NULL
+McD[,2]<- NULL
+
+McDrank[,7]<- NULL
+McDrank[,5]<- NULL
+McDrank[,3]<- NULL
+McDrank[,1]<- NULL
+
+plot(McD, main="Scatter Plot McD")
+
+plot(McDrank, main="Scatter Plot McD")
+
+cor(McD, method="pearson")
+
+
+dist.McD<- dist(McD, method="euclidean")
+dist.McDrank<- dist(McDrank, method="euclidean")
+
+dist.McD
+dist.McDrank
+
+hclust.McD<- hclust(dist.McD)
+hclust.McDrank<- hclust(dist.McDrank
+
+dev.new(width=8, height=4); plot(hclust(dist(McD)), main="Cluster Dendrogram McD", family='sans')
+
+dev.new(width=8, height=4);plot(hclust(dist(McD, method="euclidean")), main="Cluster Dendrogram McD", family='sans')
+dev.new(width=8, height=4);plot(hclust(dist(McDrank, method="euclidean")), main="Cluster Dendrogram McDrank")
+
+
+dev.new(width=8,height=4);plot(hclust(dist(McD,"canberra")),main="Cluster Dendrogram McD")
+dev.new(width=8,height=4);plot(hclust(dist(McDrank,"canberra")),main="Cluster Dendrogram McDrank")
+
+-------
+PCA
+-------
+
+McD.pca0<- prcomp(McD); biplot(McD.pca0, family='sans') # will lead to some warning messages, there is also a typo here sometimes, use pca0 instead of pca since that was the name of our variable
+
+### Actually at the Nevada lab, this gives the error, Error in plot.new() : figure margins too large
+
+biplot(prcomp(McD),family='sans')
+
+summary(McD.pca0)
+summary(prcomp(McD))
+
+McD.pca<- prcomp(McD, scale=TRUE)
+McD.pca<- prcomp(McD, scale=T)
+
+biplot(McD.pca, family='sans') # Dr. Ho forgot to mention this command on Pg 8 for the figure on the top of this page
+
+screeplot(McD.pca,family='sans')
+plot(McD.pca)
+
+-------
+Different dataset
+-------
+
+USNew<-merge(USArrests, McD, by="row.names")
+
+rownames(USNew)<- USNew[,1] 
+USNew[,1]<- NULL 
+head(USNew)
+
+
+USNew.pca<- prcomp(USNew,scale=T) 
+biplot(USNew.pca)
+
+biplot(prcomp(USNew,scale=T))
+
+-------
+Assignment Question
+-------
+
+USNew2=merge(USNew, state.x77, by="row.names")
+
+colnames(USNew2)[2] <- "Murder.73"
+colnames(USNew2)[2]<-paste("Murder.73")
+colnames(USNew2)[9]<-paste("Income.18")
+colnames(USNew2)[14]<-paste("Murder.76")
+colnames(USNew2)[11]<-paste("Income.74")
+USNew2[,1]<-NULL
+colnames(USNew2)
+
+USNew2.pca<- prcomp(USNew2,scale=T)
+biplot(USNew2.pca)
+
+biplot(prcomp(USNew2,scale=T))
+
+-------
+
+dev.copy(png,'./Desktop/myplot.png')
+dev.off()
+
+-------
+-------
+
+
+## Exercise on Feb 5, 2019
+
+x<-matrix(c(0,1,3,1,0,2,3,2,0)3,3))
+x<-matrix(c(0,1,3,1,0,2,3,2,0)3,3)
+x<-matrix(c(0,1,3,1,0,2,3,2,0),3,3)
+rownames(x)<-c("H","C","O")
+colnames(x)<-c("H","C","O")
+D <- as.dist(x)
+
+hclust(D)
+
+hclust(D,method="complete")
+
+plot(hclust(D))
+
+
+plot(hclust(D),family='sans')
+xx <- matrix(c(0,5,1,8,9,5,0,4,10,11,1,4,0,9,9,8,10,9,0,2,9,11,9,2,0),5,5)
+xx
+rownames(xx)=c("A","B","C","D","E")
+colnames(xx)=c("A","B","C","D","E")
+DD <- as.dist(xx)
+DD
+
+plot(hclust(DD,method="average"),family='sans')
+
