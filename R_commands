@@ -141,3 +141,16 @@ DD
 
 plot(hclust(DD,method="average"),family='sans')
 
+-------
+Neighbour-Joining tree
+-------
+
+# install.packages("ape", type = "source")
+
+library(ape)
+
+M <- matrix(c(0,5,1,8,9,5,0,4,10,11,1,4,0,9,9,8,10,9,0,2,9,11,9,2,0),5,5)
+rownames(M)=c("A","B","C","D","E")
+colnames(M)=c("A","B","C","D","E")
+tr <- nj(M)
+plot(tr, "u")
