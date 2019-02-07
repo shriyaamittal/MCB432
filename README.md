@@ -1,6 +1,6 @@
 # MCB432
 
-### Feb 5, 2019
+### Exercise on Feb 5, 2019
 
 Awk commands:
 
