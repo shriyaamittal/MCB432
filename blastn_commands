@@ -1,0 +1,7 @@
+## Exercise on Feb 7, 2019
+
+# Use V3V4_primers.fasta file
+
+blastn -help
+makeblastdb -in V3V4_primers.fasta -dbtype nucl
+
