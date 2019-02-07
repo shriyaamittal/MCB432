@@ -1,7 +1,8 @@
 ## Exercise on Feb 7, 2019
 
-# Use V3V4_primers.fasta file
+# Use V3V4_primers.fasta and Lacto_10.fasta files
 
 blastn -help
 makeblastdb -in V3V4_primers.fasta -dbtype nucl
-
+blastn -query Lacto_10.fasta -db V3V4_primers.fasta -out Lacto_10.blastout.txt 
+blastn -query Lacto_10.fasta -db V3V4_primers.fasta -out Lacto_10.blasttable.txt -outfmt 7 
