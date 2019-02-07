@@ -1,0 +1,41 @@
+# BLASTN 2.8.1+
+# Query: NR_114042.1 E. coli
+# Database: V3V4_primers.fasta
+# 0 hits found
+# BLASTN 2.8.1+
+# Query: NR_126253.1 L. helsingborgensis
+# Database: V3V4_primers.fasta
+# 0 hits found
+# BLASTN 2.8.1+
+# Query: NR_126252.1 L. melliventris
+# Database: V3V4_primers.fasta
+# 0 hits found
+# BLASTN 2.8.1+
+# Query: NR_126251.1 L. kullabergensis
+# Database: V3V4_primers.fasta
+# 0 hits found
+# BLASTN 2.8.1+
+# Query: NR_126250.1 L. kimbladii
+# Database: V3V4_primers.fasta
+# 0 hits found
+# BLASTN 2.8.1+
+# Query: NR_126249.1 L. mellis
+# Database: V3V4_primers.fasta
+# 0 hits found
+# BLASTN 2.8.1+
+# Query: NR_126248.1 L. mellifer
+# Database: V3V4_primers.fasta
+# 0 hits found
+# BLASTN 2.8.1+
+# Query: NR_126247.1 L. apinorum
+# Database: V3V4_primers.fasta
+# 0 hits found
+# BLASTN 2.8.1+
+# Query: NR_043096.1 L. paralimentarius
+# Database: V3V4_primers.fasta
+# 0 hits found
+# BLASTN 2.8.1+
+# Query: NR_042802.1 L. ultunensis
+# Database: V3V4_primers.fasta
+# 0 hits found
+# BLAST processed 10 queries
