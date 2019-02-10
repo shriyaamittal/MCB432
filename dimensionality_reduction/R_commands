@@ -1,0 +1,1 @@
+USnew <-merge(USArrests,state.x77,by="row.names")
