@@ -1,1 +1,15 @@
+## Create PCA plot from two datasets
+
 USnew <-merge(USArrests,state.x77,by="row.names")
+head(USnew)
+rownames(USnew)<- USnew[,1]
+USnew[,1]<-NULL
+colnames(USnew)[9]<-"Murder"
+USnew[,1]<-NULL
+png("Plot4.png", width = 10, height = 10, units = 'in', res = 1000)
+biplot(prcomp(USnew,scale=T))
+dev.off()
+
+## 
+
+
