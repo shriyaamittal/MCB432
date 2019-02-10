@@ -1,4 +1,6 @@
+####
 ## Exercise on Jan 22, 2019
+####
 
 par=(family='sans')
 
@@ -54,9 +56,7 @@ dev.new(width=8,height=4);plot(hclust(dist(McDrank,"canberra")),main="Cluster De
 PCA
 -------
 
-McD.pca0<- prcomp(McD); biplot(McD.pca0, family='sans') # will lead to some warning messages, there is also a typo here sometimes, use pca0 instead of pca since that was the name of our variable
-
-### Actually at the Nevada lab, this gives the error, Error in plot.new() : figure margins too large
+McD.pca0<- prcomp(McD); biplot(McD.pca0, family='sans') 
 
 biplot(prcomp(McD),family='sans')
 
@@ -66,7 +66,7 @@ summary(prcomp(McD))
 McD.pca<- prcomp(McD, scale=TRUE)
 McD.pca<- prcomp(McD, scale=T)
 
-biplot(McD.pca, family='sans') # Dr. Ho forgot to mention this command on Pg 8 for the figure on the top of this page
+biplot(McD.pca, family='sans') 
 
 screeplot(McD.pca,family='sans')
 plot(McD.pca)
@@ -111,11 +111,9 @@ biplot(prcomp(USNew2,scale=T))
 dev.copy(png,'./Desktop/myplot.png')
 dev.off()
 
--------
--------
-
-
+####
 ## Exercise on Feb 5, 2019
+####
 
 x<-matrix(c(0,1,3,1,0,2,3,2,0)3,3))
 x<-matrix(c(0,1,3,1,0,2,3,2,0)3,3)
@@ -145,7 +143,7 @@ plot(hclust(DD,method="average"),family='sans')
 Neighbour-Joining tree
 -------
 
-# install.packages("ape", type = "source")
+install.packages("ape", type = "source")
 
 library(ape)
 
@@ -154,3 +152,12 @@ rownames(M)=c("A","B","C","D","E")
 colnames(M)=c("A","B","C","D","E")
 tr <- nj(M)
 plot(tr, "u")
+
+## Awk commands:
+awk '/>/{print $1,$2,$3}!/>/{print}' <tmp.txt>tmp2.txt
+awk '/>/{print $1,$2,$3}!/>/{print}' <tmp.txt>tmp2.txt
+awk '/>/{print $1, substr($2,1,1)".",$3}!/>/{print}' < tmp2.txt > tmp3.txt
+
+####
+## 
+####
