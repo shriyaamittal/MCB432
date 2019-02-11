@@ -1,0 +1,5 @@
+"Alcoholic_drinks" "Beverages" "Carcase_meat" "Cereals" "Cheese" "Confectionery" "Fats_and_Oils" "Fish" "Fresh_fruit" "Fresh_potatoes" "Fresh_veg" "Other_meat" "Other_veg" "Processed_potatoes" "Processed_veg" "Soft_drinks" "Sugars"
+"England" 375 57 245 1472 105 54 193 147 1102 720 253 685 488 198 360 1374 156
+"Ireland" 135 45 267 1494 66 41 209 93 674 1033 143 586 355 187 334 1506 139
+"Scotland" 458 53 242 1462 103 62 184 122 957 566 171 750 418 220 337 1572 147
+"Wales" 475 73 227 1582 103 64 235 160 1137 874 265 803 570 203 365 1256 175

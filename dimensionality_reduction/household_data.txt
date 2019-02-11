@@ -1,0 +1,3 @@
+"Alcoholic_drinks" "Beverages" "Carcase_meat" "Cereals" "Cheese" "Confectionery" "Fats_and_Oils" "Fish" "Fresh_fruit" "Fresh_potatoes" "Fresh_veg" "Other_meat" "Other_veg" "Processed_potatoes" "Processed_veg" "Soft_drinks" "Sugars"
+"Household1" 375 57 245 1472 105 52 193 147 1102 720 253 685 485 198 360 1374 156
+"Household2" 476 75 229 1584 105 66 237 162 1139 875 264 806 572 205 367 1258 177
