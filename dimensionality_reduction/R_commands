@@ -1,4 +1,6 @@
+####
 ## Create PCA plot from two datasets
+####
 
 USnew <-merge(USArrests,state.x77,by="row.names")
 head(USnew)
@@ -11,10 +13,74 @@ par(ps=15)
 biplot(prcomp(USnew,scale=T), xlim=c(-0.4,0.35))
 dev.off()
 
+####
 ## Create PCA plot for one dataset
+####
 png("PCA-01.png", width = 10, height = 10, units = 'in', res = 500)
 par(ps=20)
 biplot(prcomp(USArrests,scale=T), xlim=c(-0.4,0.35))
 dev.off()
 
-## 
+####
+## PCA on Eating in the UK dataset in R
+####
+## Load dataset
+UK <- read.table(“./Eating_in_the_UK.txt”)
+head(UK)
+## Use R function prcomp to perform PCA on the dataset
+## Store PCA in variable name UK.pca
+UK.pca <- prcomp(UK)
+## Mean for each of the 17 features
+UK.pca$center
+## contribution of features to PCs
+UK.pca
+## rotation matrix of the PCA
+UK.pca$x
+## visualize PC1 and PC2
+biplot(UK.pca,cex=1.6,family='sans')
+# or 
+biplot(UK.pca,cex=1.6)
+## visualize PC1 and PC2
+biplot(UK.pca,var.axes=F,ylabs=NULL,cex=1.6,family='sans')
+# or 
+biplot(UK.pca,var.axes=F,ylabs=NULL)
+## visualize PC1 and PC3
+biplot(UK.pca,cex=1.6,family='sans')
+# or 
+biplot(UK.pca,cex=1.6)
+## proportion of variance in the PCs
+std_dev <- UK.pca$sdev
+pr_var <- std_dev^2
+prop_varex <- pr_var/sum(pr_var)
+plot(prop_varex, xlab = "Principal Component", ylab = "Proportion of Variance Explained", type = "b",family='sans')
+## cumulative variation
+std_dev <- UK.pca$sdev
+pr_var <- std_dev^2
+prop_varex <- pr_var/sum(pr_var)
+plot(cumsum(prop_varex), xlab = "Principal Component", ylab = "Cumulative Proportion of Variance Explained", type = "b")
+## PCA with only 2 PCs
+UK.pca <- prcomp(UK,rank=2)
+UK.pca
+## PCA with 5 PCs
+UK.pca <- prcomp(UK,rank=5)
+UK.pca
+## PCA with 5 PCs
+h <- read.table("household_data.txt")
+h
+predict(UK.pca,h)
+UK.pca$x
+
+####
+## Using Principal Coordinate Analysis (PCoA) for distance matrix
+####
+
+cities <- as.matrix(UScitiesD)
+cities
+
+city.location <- cmdscale(cities, k=2)
+city.location <- -city.location
+x<-city.location[,1]
+y<-city.location[,2]
+
+plot(x, y, type="n", asp=1, xlab="", ylab="")
+text(x,y,labels(UScitiesD))
