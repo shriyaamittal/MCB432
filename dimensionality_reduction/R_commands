@@ -25,7 +25,7 @@ dev.off()
 ## PCA on Eating in the UK dataset in R
 ####
 ## Load dataset
-UK <- read.table(“./Eating_in_the_UK.txt”)
+UK <- read.table("./Eating_in_the_UK.txt")
 head(UK)
 ## Use R function prcomp to perform PCA on the dataset
 ## Store PCA in variable name UK.pca
