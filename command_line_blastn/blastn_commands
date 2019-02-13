@@ -13,9 +13,7 @@ blastn -query Lacto_10.fasta -db V3V4_primers.fasta -out Lacto_10.blasttable.txt
 
 awk '/Query:/{print $3}' <Lacto_10.blasttable.txt
 
-I can't get the following to work:
-
-awk '/Query:/{if(flag1>0 && flag2>0){print acc, num1, num2}; {print acc=$3; flag1=0; flag2=0}($1==acc && $2~"785r"){if(flag1==0){print num2=$7; flag1++}} ($1==acc && $2~"341f"){if(flag2==0){print num1=$8; flag2++}}END{if(flag1>0 && flag2>0){print acc, num1,num2}}' <Lacto_10.blasttable.txt
+awk '/Query:/{if(flag1>0 && flag2>0){print acc, num1, num2}; print acc=$3; flag1=0; flag2=0}($1==acc && $2~"785r"){if(flag1==0){print num2=$7; flag1++}}($1==acc && $2~"341f"){if(flag2==0){print num1=$8; flag2++}}END{if(flag1>0 && flag2>0){print acc, num1,num2}}' <Lacto_10.blasttable.txt
 
 awk '/Query:/{if(flag1>0&&flag2>0){print acc, num1, num2}; print acc=$3;flag1=0; flag2=0}($1==acc&&$2~"785r"){if(flag1==0){num2=$7; flag1++}}($1==acc&&$2~"341f"){if(flag2==0){num1=$8; flag2++}}END{if(flag1>0&&flag2>0){print acc, num1, num2}}' <Lacto_10.blasttable.txt
 
