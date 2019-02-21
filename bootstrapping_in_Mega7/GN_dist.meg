@@ -1,0 +1,58 @@
+#mega
+!Title: Phylogenetic Analysis;
+!Format DataType=Distance DataFormat=LowerLeft NTaxa=17;
+!Description
+  Analysis 
+    Analysis ---------------------- Distance Estimation
+    Scope ------------------------- Pairs of taxa
+  Estimate Variance
+    Variance Estimation Method ---- None
+  Substitution Model
+    Substitutions Type ------------ Nucleotide
+    Model/Method ------------------ Maximum Composite Likelihood
+    Substitutions to Include ------ d: Transitions + Transversions
+  Rates and Patterns
+    Rates among Sites ------------- Uniform rates
+    Pattern among Lineages -------- Same (Homogeneous)
+  Data Subset to Use
+    Gaps/Missing Data Treatment --- Complete deletion
+  No. of Sites : 1327
+  d : Estimate
+;
+
+[ 1] #NR_119108.1_Salmonella_enterica
+[ 2] #NR_119058.1_Vibrio_parahaemolyticus
+[ 3] #NR_119039.1_Aeromonas_hydrophila
+[ 4] #NR_118930.1_Vibrio_vulnificus
+[ 5] #NR_074597.1_Pseudomonas_syringae
+[ 6] #NR_041769.1_Bordetella_avium
+[ 7] #NR_026078.1_Pseudomonas_aeruginosa
+[ 8] #NR_117685.1_Klebsiella_pneumoniae
+[ 9] #NR_115936.1_Vibrio_cholerae
+[10] #NR_114587.1_Helicobacter_pylori
+[11] #NR_114042.1_Escherichia_coli
+[12] #NR_104901.1_Shigella_boydii
+[13] #NR_029260.1_Clostridium_tetani
+[14] #NR_025160.1_Yersinia_pestis
+[15] #NR_026332.1_Shigella_dysenteriae
+[16] #NR_026331.1_Shigella_flexneri
+[17] #NR_025951.1_Bordetella_pertussis
+
+[        1     2     3     4     5     6     7     8     9    10    11    12    13    14    15    16    17 ]
+[ 1]        
+[ 2]  0.087       
+[ 3]  0.100 0.109       
+[ 4]  0.097 0.026 0.109       
+[ 5]  0.157 0.149 0.137 0.160       
+[ 6]  0.237 0.251 0.193 0.250 0.179       
+[ 7]  0.165 0.170 0.154 0.186 0.062 0.190       
+[ 8]  0.024 0.095 0.096 0.106 0.155 0.236 0.160       
+[ 9]  0.087 0.057 0.098 0.056 0.138 0.231 0.174 0.093       
+[10]  0.325 0.324 0.316 0.337 0.284 0.310 0.316 0.338 0.298       
+[11]  0.021 0.094 0.093 0.100 0.160 0.227 0.171 0.030 0.090 0.334       
+[12]  0.022 0.091 0.094 0.097 0.161 0.228 0.171 0.032 0.090 0.329 0.005       
+[13]  0.331 0.344 0.315 0.346 0.283 0.320 0.305 0.330 0.314 0.296 0.329 0.330       
+[14]  0.055 0.096 0.090 0.098 0.162 0.218 0.172 0.044 0.082 0.340 0.046 0.051 0.332       
+[15]  0.023 0.096 0.095 0.100 0.158 0.227 0.170 0.030 0.087 0.328 0.008 0.012 0.331 0.047       
+[16]  0.020 0.095 0.094 0.101 0.161 0.229 0.170 0.029 0.091 0.336 0.001 0.005 0.330 0.046 0.008       
+[17]  0.234 0.248 0.193 0.249 0.187 0.011 0.192 0.233 0.231 0.316 0.226 0.226 0.336 0.219 0.225 0.227       

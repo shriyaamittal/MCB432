@@ -1,0 +1,13 @@
+awk '/>/{print $1,$2,$3}!/>/{print}' < GN.fasta > GN.1.fasta
+
+## Commands for R 
+data <- read.table("GN_dist.txt", fill = TRUE, header = T,row.names=1)
+
+distA<-as.dist(as.matrix(data)) 
+
+fitA <- cmdscale(distA,eig=TRUE, k=2)
+
+kmeans(fitA$points,4)
+x<-kmeans(fitA$points,4) 
+plot(data.frame(fitA$points), xlim=c(-0.1,0.2), col=x$cluster,pch=x$cluster, main="K-means Clustering of Gram-Negative bacteria", family='sans') 
+text(data.frame(fitA$points),labels = row.names(data.frame(fitA$points)), pos=2, family='sans') 
