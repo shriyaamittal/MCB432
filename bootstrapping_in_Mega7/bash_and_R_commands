@@ -1,6 +1,8 @@
 awk '/>/{print $1,$2,$3}!/>/{print}' < GN.fasta > GN.1.fasta
 
-## Commands for R 
+## Use the dataset to generate trees and distance matrix in Mega7
+
+## Commands for analysis on data matrix in R
 data <- read.table("GN_dist.txt", fill = TRUE, header = T,row.names=1)
 
 distA<-as.dist(as.matrix(data)) 
