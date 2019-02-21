@@ -1,0 +1,4 @@
+awk '/>/{print $1,$2,$3}!/>/{print}' < GN.fasta > GN.1.fasta
+
+
+
