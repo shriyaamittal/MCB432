@@ -1,5 +1,5 @@
 ####
-##Use the file bad_bug_list.txt, to create clusters that are gram-positive and gram-negative bacteria
+## Use the file bad_bug_list.txt, to separate these bacteria into clusters that are gram-positive and gram-negative
 ####
 
 awk '{n++}n==1{line=$1}n>1{line=line" or "$1}END{print line}'<bad_bug_list.txt 
@@ -43,3 +43,4 @@ text(data.frame(fitB$points),labels = c("Neisseria_meningitidi",
 "Burkholderia_pseudomallei", "Bacillus_anthracis", "Clostridium_tetani", 
 "Yersinia_pestis", "Shigella_dysenteriae", "Shigella_flexneri", 
 "Bordetella_pertussis"),pos=2,col=clB$cluster,family="sans") 
+
