@@ -1,0 +1,40 @@
+[ 1] #NR_104946.1_Neisseria_meningitidis
+[ 2] #NR_104930.1_Haemophilus_haemolyticus
+[ 3] #NR_026079.2_Neisseria_gonorrhoeae
+[ 4] #NR_119108.1_Salmonella_enterica
+[ 5] #NR_119058.1_Vibrio_parahaemolyticus
+[ 6] #NR_119039.1_Aeromonas_hydrophila
+[ 7] #NR_118930.1_Vibrio_vulnificus
+[ 8] #NR_114782.1_Enterococcus_faecalis
+[ 9] #NR_112088.1_Streptococcus_pyogenes
+[10] #NR_111993.1_Chlamydia_abortus
+[11] #NR_044732.2_Borreliella_burgdorferi
+[12] #NR_074597.1_Pseudomonas_syringae
+[13] #NR_044823.1_Listeria_monocytogenes
+[14] #NR_041769.1_Bordetella_avium
+[15] #NR_028665.1_Streptococcus_pneumoniae
+[16] #NR_026078.1_Pseudomonas_aeruginosa
+[17] #NR_136481.1_Elizabethkingia_endophytica
+[18] #NR_118679.1_Rickettsia_typhi
+[19] #NR_117685.1_Klebsiella_pneumoniae
+[20] #NR_117209.1_Corynebacterium_diphtheriae
+[21] #NR_116845.1_Acinetobacter_baumannii
+[22] #NR_116692.1_Mycobacterium_tuberculosis
+[23] #NR_115936.1_Vibrio_cholerae
+[24] #NR_114587.1_Helicobacter_pylori
+[25] #NR_114042.1_Escherichia_coli
+[26] #NR_113957.1_Staphylococcus_epidermidis
+[27] #NR_113956.1_Staphylococcus_aureus
+[28] #NR_113235.1_Legionella_pneumophila
+[29] #NR_113204.1_Clostridium_perfringens
+[30] #NR_112172.1_Peptoclostridium_difficile
+[31] #NR_104901.1_Shigella_boydii
+[32] #NR_043553.1_Burkholderia_pseudomallei
+[33] #NR_041248.1_Bacillus_anthracis
+[34] #NR_029260.1_Clostridium_tetani
+[35] #NR_025160.1_Yersinia_pestis
+[36] #NR_026332.1_Shigella_dysenteriae
+[37] #NR_026331.1_Shigella_flexneri
+[38] #NR_025951.1_Bordetella_pertussis
+[39] #MH197074.1_Escherichia_coli
+[40] #MH071520.1_Escherichia_coli

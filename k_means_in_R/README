@@ -1,0 +1,45 @@
+####
+##Use the file bad_bug_list.txt, to create clusters that are gram-positive and gram-negative bacteria
+####
+
+awk '{n++}n==1{line=$1}n>1{line=line" or "$1}END{print line}'<bad_bug_list.txt 
+
+## Download sequences from ncbi database, and name the file as bad_bug.fasta
+
+awk '/>/{print $1,$2,$3}!/>/{print}' <bad_bug.fasta >bad_bug.1.fasta 
+
+## Align sequences in Mega 7 using muscle, save as .meg file
+## Use this .meg file to create the distance matrix, bad_bug_dist.meg
+
+p=bad_bug_dist; awk '/!/{flag=1}/;/{flag=0}flag==0&&!/#/&&!/!/&&!/;/&&$0!=""{print}'<$p.meg |awk '{n++}; (n>2){gsub(/\[/,"");gsub(/\]/,"")};(n==3){for(i=1;i<NF;i++){$(i)= "OTU"$(i)}; print "x",$0}(n>3){$1="OTU"$1;print}' >$p.txt 
+
+## Create text file bad_bug_otu.txt which has the bacterial names from the bad_bug_dist.meg file
+
+awk 'BEGIN{FS="_"}{n++}(n==1){line="\""$3"_"substr($4,1,length($4)-1)"\""}(n>1){line=line", \""$3"_"substr($4,1)"\""}END{print line}'<bad_bug_otu.txt 
+
+## R commands
+data2 <- read.table("~/Desktop/bad_bug_dist.txt", fill = TRUE, header = T,row.names=1);
+distB<- as.dist(as.matrix(data2));
+fitB <- cmdscale(distB,eig=TRUE, k=2); 
+clB<- kmeans(fitB$points,2)
+plot(data.frame(fitB$points),col=clB$cluster,pch=clB$cluster,main="Clustering of Pathogenic Bacteria 16S rRNA Genes",xlim=c(-0.3,0.15), family="sans")
+text(data.frame(fitB$points),labels = row.names(data.frame(fitB$points)),pos=2,family="sans"
+
+
+clB<- kmeans(fitB$points,4) 
+plot(data.frame(fitB$points),col=clB$cluster,pch=clB$cluster,main="Clustering of 
+Pathogenic Bacteria 16S rRNA Genes",xlim=c(-0.3,0.15), family="sans"); 
+text(data.frame(fitB$points),labels = c("Neisseria_meningitidi", 
+"Haemophilus_haemolyticus", "Neisseria_gonorrhoeae", "Salmonella_enterica", 
+"Vibrio_parahaemolyticus", "Aeromonas_hydrophila", "Vibrio_vulnificus", 
+"Enterococcus_faecalis", "\nStreptococcus_pyogenes", "Chlamydia_abortus", 
+"Borreliella_burgdorferi", "Pseudomonas_syringae", "Listeria_monocytogenes", 
+"\nBordetella_avium", "Streptococcus_pneumoniae", "Pseudomonas_aeruginosa", 
+"Elizabethkingia_endophytica", "Rickettsia_typhi", "Klebsiella_pneumoniae", 
+"Corynebacterium_diphtheriae", "Acinetobacter_baumannii", "\nMycobacterium_tuberculosis", 
+"Vibrio_cholerae", "Helicobacter_pylori", "Escherichia_coli", 
+"Staphylococcus_epidermidis", "Staphylococcus_aureus", "Legionella_pneumophila", 
+"Clostridium_perfringens", "Peptoclostridium_difficile", "Shigella_boydii", 
+"Burkholderia_pseudomallei", "Bacillus_anthracis", "Clostridium_tetani", 
+"Yersinia_pestis", "Shigella_dysenteriae", "Shigella_flexneri", 
+"Bordetella_pertussis"),pos=2,col=clB$cluster,family="sans") 
