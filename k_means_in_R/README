@@ -44,3 +44,12 @@ text(data.frame(fitB$points),labels = c("Neisseria_meningitidi",
 "Yersinia_pestis", "Shigella_dysenteriae", "Shigella_flexneri", 
 "Bordetella_pertussis"),pos=2,col=clB$cluster,family="sans") 
 
+####
+## Making fancier R scatter plots
+####
+
+awk 'BEGIN{print ",Acc,Name"}/#NR/{gsub(/\[/,"");gsub(/\]/,"");gsub(/#/,"");gsub(/_/," ");gsub(/\r/,"");print "OTU"$1","$2"_"$3",\""$4" "$5"\""}'<bad_bug_dist.meg >bad_bug_names.csv
+ 
+awk '/#NR/{gsub(/\[/,"");gsub(/\]/,"");gsub(/#/,"");gsub(/_/," ");gsub(/\r/,"");print "OTU"$1,$2"_"$3,"\""$4" "$5"\""}'<bad_bug_dist.meg >bad_bug_names.txt
+ 
+
