@@ -6,5 +6,11 @@ library(ape)
 GN.dna <- read.FASTA("GN_acc.fasta")
 
 par(family="sans")
-
 GNcl <- cluster(GN.dna,k=5);plot(GNcl) ## Trying this statement multiple time will yield a different tree every time
+
+par(family="sans")
+GN.kdis <- kdistance(GN.dna, k=5); plot(cmdscale(GN.kdis))
+
+## Get a list of the sequences
+otu(GN.dna, k=5, threshold=0.97)
+
