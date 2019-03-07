@@ -24,5 +24,4 @@ par(family="sans")
 CA_1.kdis <- kdistance(CA_1.dna, k=5); plot(cmdscale(CA_1.kdis))
 
 ## Get a list of the sequences
-otu(CA_1.dna, k=5, threshold=0.5)
-
+otu(CA_1.dna, k=5, threshold=0.9, method="central")
