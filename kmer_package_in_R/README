@@ -1,1 +1,10 @@
+install.packages(kmer)
 
+library(kmer)
+library(ape)
+
+GN.dna <- read.FASTA("GN_acc.fasta")
+
+par(family="sans")
+
+GNcl <- cluster(GN.dna,k=5);plot(GNcl)
