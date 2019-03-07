@@ -1,0 +1,21 @@
+x<- read.table(text="OTU A     B 
+Lactobacillus_crispatus  31  25
+Lactobacillus_gasseri 57  14
+Escherichia_coli 0   6
+Aerococcus_christensenii 1  20
+Morganella_morganii 0  11
+Enterococcus_faecalis 9   5 
+Prevotella_bivia 0  15 
+Propionibacterium_acnes 0   7 
+others 1 2 ", header = TRUE, row.names=1)
+
+library(vegan)
+## install.packages("vegan")
+
+vegdist(x)
+y<- t(x)  ## transpose of x
+vegdist(y) ## Bray-curtis distance is the default method for distance computation
+vegdist(y,method="euclidean") 
+
+plot(tt, pch=21,bg=3,cex=2,main="CMD Scaling for 4 Microbial Communities")
+text(tt,labels=row.names(tt),cex=1.5,pos=1) 
