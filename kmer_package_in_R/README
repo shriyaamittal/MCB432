@@ -14,3 +14,15 @@ GN.kdis <- kdistance(GN.dna, k=5); plot(cmdscale(GN.kdis))
 ## Get a list of the sequences
 otu(GN.dna, k=5, threshold=0.97)
 
+####
+## Different dataset (as needed for assignment/mid-term assignment)
+####
+
+CA_1.dna <- read.FASTA("CA_A/CA_A_1.fasta")
+
+par(family="sans")
+CA_1.kdis <- kdistance(CA_1.dna, k=5); plot(cmdscale(CA_1.kdis))
+
+## Get a list of the sequences
+otu(CA_1.dna, k=5, threshold=0.5)
+
