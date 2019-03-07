@@ -7,4 +7,4 @@ GN.dna <- read.FASTA("GN_acc.fasta")
 
 par(family="sans")
 
-GNcl <- cluster(GN.dna,k=5);plot(GNcl)
+GNcl <- cluster(GN.dna,k=5);plot(GNcl) ## Trying this statement multiple time will yield a different tree every time
