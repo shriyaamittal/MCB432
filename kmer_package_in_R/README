@@ -39,3 +39,11 @@ write.dna(woodmouse, "woodmouse.fasta",format="fasta")
 d <- dist.dna(woodmouse)
 dnadist<-cmdscale(d)
 plot(dnadist,family="sans")
+
+kdis <- kdistance(woodmouse,5) # 5-mers, so 4^5 possibilities
+kdis2 <- cmdscale(kdis)
+plot(kdis2,family="sans")
+
+otu(woodmouse,5,nstar=20)
+
+## So, we got two plots, one from DNA distance and another from k-mer distance
