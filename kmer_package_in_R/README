@@ -27,7 +27,7 @@ CA_1.kdis <- kdistance(CA_1.dna, k=5); plot(cmdscale(CA_1.kdis))
 otu(CA_1.dna, k=5, threshold=0.9, method="central")
 
 ####
-## Working with woodmouse dataset in R (using ape and kmer packages)
+## Working with fasta datasets in R (using ape and kmer packages)
 ####
 
 library(kmer)
@@ -47,3 +47,6 @@ plot(kdis2,family="sans")
 otu(woodmouse,5,nstar=20)
 
 ## So, we got two plots, one from DNA distance and another from k-mer distance
+
+Refseq.dna <- read.dna("Refseq_2019.fasta",format="fasta") ## This dataset has 20098 sequences
+Refseq.otu<-otu(Refseq.dna,5,nstar=20)
