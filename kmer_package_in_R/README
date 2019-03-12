@@ -25,3 +25,17 @@ CA_1.kdis <- kdistance(CA_1.dna, k=5); plot(cmdscale(CA_1.kdis))
 
 ## Get a list of the sequences
 otu(CA_1.dna, k=5, threshold=0.9, method="central")
+
+####
+## Working with woodmouse dataset in R (using ape and kmer packages)
+####
+
+library(kmer)
+library(ape)
+data(woodmouse)
+
+write.dna(woodmouse, "woodmouse.fasta",format="fasta")
+
+d <- dist.dna(woodmouse)
+dnadist<-cmdscale(d)
+plot(dnadist,family="sans")
