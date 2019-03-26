@@ -25,3 +25,28 @@ CA_1.kdis <- kdistance(CA_1.dna, k=5); plot(cmdscale(CA_1.kdis))
 
 ## Get a list of the sequences
 otu(CA_1.dna, k=5, threshold=0.9, method="central")
+
+####
+## Working with fasta datasets in R (using ape and kmer packages)
+####
+
+library(kmer)
+library(ape)
+data(woodmouse)
+
+write.dna(woodmouse, "woodmouse.fasta",format="fasta")
+
+d <- dist.dna(woodmouse)
+dnadist<-cmdscale(d)
+plot(dnadist,family="sans")
+
+kdis <- kdistance(woodmouse,5) # 5-mers, so 4^5 possibilities
+kdis2 <- cmdscale(kdis)
+plot(kdis2,family="sans")
+
+otu(woodmouse,5,nstar=20)
+
+## So, we got two plots, one from DNA distance and another from k-mer distance
+
+Refseq.dna <- read.dna("Refseq_2019.fasta",format="fasta") ## This dataset has 20098 sequences
+Refseq.otu<-otu(Refseq.dna,5,nstar=20)
