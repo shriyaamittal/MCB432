@@ -119,4 +119,11 @@ OTU.dist<- vegdist(OTU)
 Sys.time();OTU.pcoa<- pcoa(OTU.dist);Sys.time();
 OTU.pcoa
 
+png('figure2.png')
 biplot(OTU.pcoa)
+dev.off()
+
+OTUx<- t(OTU_tablex)
+OTU.rda<- rda(OTUx,scale=TRUE)
+
+x2<- read.csv("~/Desktop/meta.csv",row.names=1)

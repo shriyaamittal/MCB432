@@ -1,6 +1,11 @@
 To run an R script from the interpretor
 > source('script name')
 
+In the metadata csv files, Symbol is according to Symptom (x,y,z) and Color is according to Attribute (o,p,q)
+
+#####
+## Assignment
+#####
 
 Determine whether the microbiomes of a person with attributes o, p or q is associated with symptoms x, y or z.
 
