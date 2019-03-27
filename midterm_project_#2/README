@@ -1,0 +1,18 @@
+To run an R script from the interpretor
+> source('script name')
+
+
+Determine whether the microbiomes of a person with attributes o, p or q is associated with symptoms x, y or z.
+
+1. Construct a metadata table for your samples.
+2. Combine your data into one single file and compute kmer-otu clustering.
+3. Split the kmer-otu result into separate data sets
+4. Count the otu numbers separately for each set, then combine the otu counts for each set into an otu table.
+5. Compute PCoA analysis for your datasets.
+6. Compute PCA analysis for your datasets.
+7. Use color and symbol sets for your graphic presentation.
+8. Include a conclusion statement in your report, addressing:
+	a. If your opq, xyz factors can be distinguished by your microbiome data.
+	b. If your analysis revealed any of the OTUs that can distinguish among your samples, opq factors, xyz factors, or sampling sites A and B.
+9. Add any additional comments on what you uncovered during your analysis.
+
