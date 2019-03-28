@@ -11,6 +11,8 @@ In the metadata csv files, Color is according to Symptom (x,y,z) and Symbol is a
 23 -> Diamond -> p
 24 -> Triangle -> q
 
+Possible analysis, split oll patient data based on site A and B, i.e. two splits and then do analysis.
+
 #####
 ## Assignment
 #####
