@@ -1,4 +1,4 @@
-"OTU" "name" "all" "set1" "set2" "set3" "set4" "set5" "set6" "set7" "set8" "set9" "set10" "set11" "set12" "set13" "set14" "set15" "set16" "set17" "set18" "set19" "set20"
+"OTU" "name" "all" "AF_A" "AF_B" "AM_A" "AM_B" "AQ_A" "AQ_B" "AX_A" "AX_B" "BB_A" "BB_B" "BF_A" "BF_B" "BI_A" "BI_B" "BM_A" "BM_B" "BU_A" "BU_B" "BX_A" "BX_B"
 "1" 1 "BX_A_15800_3_672*" 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0
 "2" 2 "BI_B_28732_3_792*" 2 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0
 "3" 3 "BI_B_25517_3_217*" 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0

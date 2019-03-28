@@ -2,64 +2,64 @@ all_otu_count<- read.table("all_otu_count.txt")
 colnames(all_otu_count)<-c("OTU","name","all","ct")
 
 otu.1.count<- read.table("otu.AF_A_2.count.txt")
-colnames(otu.1.count)<-c("OTU","set1","ct")
+colnames(otu.1.count)<-c("OTU","AF_A","ct")
 
 otu.2.count<- read.table("otu.AF_B_2.count.txt")
-colnames(otu.2.count)<-c("OTU","set2","ct")
+colnames(otu.2.count)<-c("OTU","AF_B","ct")
 
 otu.3.count<- read.table("otu.AM_A_4.count.txt")
-colnames(otu.3.count)<-c("OTU","set3","ct")
+colnames(otu.3.count)<-c("OTU","AM_A","ct")
 
 otu.4.count<- read.table("otu.AM_B_4.count.txt")
-colnames(otu.4.count)<-c("OTU","set4","ct")
+colnames(otu.4.count)<-c("OTU","AM_B","ct")
 
 otu.5.count<- read.table("otu.AQ_A_1.count.txt")
-colnames(otu.5.count)<-c("OTU","set5","ct")
+colnames(otu.5.count)<-c("OTU","AQ_A","ct")
 
 otu.6.count<- read.table("otu.AQ_B_1.count.txt")
-colnames(otu.6.count)<-c("OTU","set6","ct")
+colnames(otu.6.count)<-c("OTU","AQ_B","ct")
 
 otu.7.count<- read.table("otu.AX_A_2.count.txt")
-colnames(otu.7.count)<-c("OTU","set7","ct")
+colnames(otu.7.count)<-c("OTU","AX_A","ct")
 
 otu.8.count<- read.table("otu.AX_B_2.count.txt")
-colnames(otu.8.count)<-c("OTU","set8","ct")
+colnames(otu.8.count)<-c("OTU","AX_B","ct")
 
 otu.9.count<- read.table("otu.BB_A_3.count.txt")
-colnames(otu.9.count)<-c("OTU","set9","ct")
+colnames(otu.9.count)<-c("OTU","BB_A","ct")
 
 otu.10.count<- read.table("otu.BB_B_3.count.txt")
-colnames(otu.10.count)<-c("OTU","set10","ct")
+colnames(otu.10.count)<-c("OTU","BB_B","ct")
 
 otu.11.count<- read.table("otu.BF_A_3.count.txt")
-colnames(otu.11.count)<-c("OTU","set11","ct")
+colnames(otu.11.count)<-c("OTU","BF_A","ct")
 
 otu.12.count<- read.table("otu.BF_B_3.count.txt")
-colnames(otu.12.count)<-c("OTU","set12","ct")
+colnames(otu.12.count)<-c("OTU","BF_B","ct")
 
 otu.13.count<- read.table("otu.BI_A_3.count.txt")
-colnames(otu.13.count)<-c("OTU","set13","ct")
+colnames(otu.13.count)<-c("OTU","BI_A","ct")
 
 otu.14.count<- read.table("otu.BI_B_3.count.txt")
-colnames(otu.14.count)<-c("OTU","set14","ct")
+colnames(otu.14.count)<-c("OTU","BI_B","ct")
 
 otu.15.count<- read.table("otu.BM_A_4.count.txt")
-colnames(otu.15.count)<-c("OTU","set15","ct")
+colnames(otu.15.count)<-c("OTU","BM_A","ct")
 
 otu.16.count<- read.table("otu.BM_B_4.count.txt")
-colnames(otu.16.count)<-c("OTU","set16","ct")
+colnames(otu.16.count)<-c("OTU","BM_B","ct")
 
 otu.17.count<- read.table("otu.BU_A_4.count.txt")
-colnames(otu.17.count)<-c("OTU","set17","ct")
+colnames(otu.17.count)<-c("OTU","BU_A","ct")
 
 otu.18.count<- read.table("otu.BU_B_4.count.txt")
-colnames(otu.18.count)<-c("OTU","set18","ct")
+colnames(otu.18.count)<-c("OTU","BU_B","ct")
 
 otu.19.count<- read.table("otu.BX_A_3.count.txt")
-colnames(otu.19.count)<-c("OTU","set19","ct")
+colnames(otu.19.count)<-c("OTU","BX_A","ct")
 
 otu.20.count<- read.table("otu.BX_B_3.count.txt")
-colnames(otu.20.count)<-c("OTU","set20","ct")
+colnames(otu.20.count)<-c("OTU","BX_B","ct")
 
 m1<-merge(x=all_otu_count,y=otu.1.count,by="OTU", all.x=T, all.y=T)
 m1[is.na(m1)]<-0; m1[,6]<-NULL; m1[,4]<-NULL; head(m1)
@@ -106,7 +106,6 @@ m20<-merge(x=m19,y=otu.20.count,by="OTU", all.x=T, all.y=T);m20[is.na(m20)]<-0;h
 
 write.table(m20,"otu_table.txt")
 
-
 OTU<-m20[,-2]
 OTU_table<-OTU[,-1]
 OTU_tablex<-OTU_table[,-1]; head(OTU_tablex)
@@ -115,15 +114,49 @@ write.csv(OTU_tablex,"otu_tablex.csv")
 library(ape)
 library(vegan)
 
-OTU.dist<- vegdist(OTU)
+OTUx<-t(OTU_tablex) # Transpose
+
+##PCoA
+OTU.dist<- vegdist(OTUx)
 Sys.time();OTU.pcoa<- pcoa(OTU.dist);Sys.time();
 OTU.pcoa
 
-png('figure2.png')
+png('figure2.png')#,res=500,width = 3, height = 3, units = 'in')
 biplot(OTU.pcoa)
+#points=c(16, 1)
 dev.off()
 
-OTUx<- t(OTU_tablex)
+## RDA
 OTU.rda<- rda(OTUx,scale=TRUE)
 
-x2<- read.csv("~/Desktop/meta.csv",row.names=1)
+x2<- read.csv("meta01.csv",row.names=1)
+
+envfit(OTU.rda,x2[,1:2],perm = 999)
+
+png('figure3.png')
+biplot(OTU.rda,scaling=-3,type=c("t","p"),display="spe",col="gray", main="PCA analysis for 8 Sets",sub="keys= X(Red) Y(Green) Z(Blue) o(Circle) p(Diamond) q(Triangle)")
+points(OTU.rda,scaling=-3,pch=x2$Symbol,bg=x2$Color,cex=1.5)
+text(OTU.rda,scaling=-3,pos=1,cex=1.2)
+dev.off()
+
+x2<- read.csv("meta02.csv",row.names=1)
+
+envfit(OTU.rda,x2[,1:2],perm = 999)
+
+png('figure4.png')
+biplot(OTU.rda,scaling=-3,type=c("t","p"),display="spe",col="gray", main="PCA analysis for 8 Sets",sub="keys= A(Black) B(Red) o(Circle) p(Diamond) q(Triangle)")
+points(OTU.rda,scaling=-3,pch=x2$Symbol,bg=x2$Color,cex=1.5)
+text(OTU.rda,scaling=-3,pos=1,cex=1.2)
+dev.off()
+
+
+x2<- read.csv("meta03.csv",row.names=1)
+
+envfit(OTU.rda,x2[,1:2],perm = 999)
+
+png('figure5.png')
+biplot(OTU.rda,scaling=-3,type=c("t","p"),display="spe",col="gray", main="PCA analysis for 8 Sets",sub="keys= X(Red) Y(Green) Z(Blue) A(Circle) B(Triangle)")
+points(OTU.rda,scaling=-3,pch=x2$Symbol,bg=x2$Color,cex=1.5)
+text(OTU.rda,scaling=-3,pos=1,cex=1.2)
+dev.off()
+

@@ -1,7 +1,15 @@
 To run an R script from the interpretor
 > source('script name')
 
-In the metadata csv files, Symbol is according to Symptom (x,y,z) and Color is according to Attribute (o,p,q)
+In the metadata csv files, Color is according to Symptom (x,y,z) and Symbol is according to Attribute (o,p,q)
+
+2 -> Red -> X
+3 -> Green -> Y
+4 -> Blue -> Z
+
+21 -> Circle -> o
+23 -> Diamond -> p
+24 -> Triangle -> q
 
 #####
 ## Assignment
