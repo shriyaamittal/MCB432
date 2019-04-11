@@ -1,1 +1,1 @@
-source SerotypeFinder.sh test.5.fasta 
+Usage: source SerotypeFinder.sh test.5.fasta 
