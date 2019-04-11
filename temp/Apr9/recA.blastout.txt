@@ -1,0 +1,366 @@
+BLASTN 2.8.1+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: recA.tfa
+           590 sequences; 300,900 total letters
+
+
+
+Query= CP014111.1 Escherichia coli strain FDAARGOS_144 chromosome, complete
+genome
+
+Length=4829687
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  recA_30                                                             942     0.0  
+  recA_447                                                            937     0.0  
+  recA_166                                                            937     0.0  
+  recA_202                                                            926     0.0  
+  recA_122                                                            926     0.0  
+
+
+> recA_30
+Length=510
+
+ Score = 942 bits (510),  Expect = 0.0
+ Identities = 510/510 (100%), Gaps = 0/510 (0%)
+ Strand=Plus/Minus
+
+Query  2154905  TCGCCGTAGAAGTTGATACCTTCGCCGTAGAGGATCTGGAATTCAGCCTGTTTAAACGGC  2154964
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  510      TCGCCGTAGAAGTTGATACCTTCGCCGTAGAGGATCTGGAATTCAGCCTGTTTAAACGGC  451
+
+Query  2154965  GCAGCGATTTTGTTCTTCACCACTTTCACGCGGGTTTCGCTACCCACCACGTTTTCGCCC  2155024
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  450      GCAGCGATTTTGTTCTTCACCACTTTCACGCGGGTTTCGCTACCCACCACGTTTTCGCCC  391
+
+Query  2155025  TCTTTCACCGCGCCGATACGACGGATGTCGAGACGAACAGAGGCGTAGAATTTCAGCGCG  2155084
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  390      TCTTTCACCGCGCCGATACGACGGATGTCGAGACGAACAGAGGCGTAGAATTTCAGCGCG  331
+
+Query  2155085  TTACCACCAGTAGTGGTTTCCGGGTTACCGAACATCACACCAATTTTCATACGGATCTGG  2155144
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  330      TTACCACCAGTAGTGGTTTCCGGGTTACCGAACATCACACCAATTTTCATACGGATCTGG  271
+
+Query  2155145  TTGATGAAGATCAGCAGCGTGTTGGACTGCTTCAGGTTACCCGCCAGCTTACGCATCGCC  2155204
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  270      TTGATGAAGATCAGCAGCGTGTTGGACTGCTTCAGGTTACCCGCCAGCTTACGCATCGCC  211
+
+Query  2155205  TGGCTCATCATACGTGCCGCAAGGCCCATGTGAGAGTCGCCGATTTCACCTTCGATTTCC  2155264
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  210      TGGCTCATCATACGTGCCGCAAGGCCCATGTGAGAGTCGCCGATTTCACCTTCGATTTCC  151
+
+Query  2155265  GCTTTCGGCGTCAGTGCCGCCACGGAGTCAACGACGATAACGTCTACTGCGCCAGAACGT  2155324
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  150      GCTTTCGGCGTCAGTGCCGCCACGGAGTCAACGACGATAACGTCTACTGCGCCAGAACGT  91
+
+Query  2155325  GCCAGGGCATCACAGATTTCCAGTGCCTGCTCGCCAGTGTCCGGCTGGGAGCACAGCAGG  2155384
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  90       GCCAGGGCATCACAGATTTCCAGTGCCTGCTCGCCAGTGTCCGGCTGGGAGCACAGCAGG  31
+
+Query  2155385  TTGTCGATATCGACGCCCAGTTTACGTGCG  2155414
+                ||||||||||||||||||||||||||||||
+Sbjct  30       TTGTCGATATCGACGCCCAGTTTACGTGCG  1
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 1370608643820
+
+
+Query= CP033092.2 Escherichia coli DSM 30083 = JCM 1649 = ATCC 11775
+chromosome, complete genome
+
+Length=4903501
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  recA_26                                                             942     0.0  
+  recA_576                                                            937     0.0  
+  recA_396                                                            937     0.0  
+  recA_367                                                            937     0.0  
+  recA_318                                                            937     0.0  
+
+
+> recA_26
+Length=510
+
+ Score = 942 bits (510),  Expect = 0.0
+ Identities = 510/510 (100%), Gaps = 0/510 (0%)
+ Strand=Plus/Plus
+
+Query  1178491  CGCACGTAAACTGGGCGTTGATATCGACAACCTGCTGTGCTCCCAGCCGGATACCGGCGA  1178550
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1        CGCACGTAAACTGGGCGTTGATATCGACAACCTGCTGTGCTCCCAGCCGGATACCGGCGA  60
+
+Query  1178551  GCAGGCACTGGAAATCTGTGACGCCCTGGCACGTTCTGGCGCAGTAGACGTTATCGTCGT  1178610
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  61       GCAGGCACTGGAAATCTGTGACGCCCTGGCACGTTCTGGCGCAGTAGACGTTATCGTCGT  120
+
+Query  1178611  TGACTCCGTGGCGGCACTGACGCCGAAAGCGGAAATCGAAGGCGAAATCGGCGACTCTCA  1178670
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  121      TGACTCCGTGGCGGCACTGACGCCGAAAGCGGAAATCGAAGGCGAAATCGGCGACTCTCA  180
+
+Query  1178671  CATGGGCCTTGCGGCACGTATGATGAGCCAGGCGATGCGTAAGCTGGCGGGTAACCTGAA  1178730
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  181      CATGGGCCTTGCGGCACGTATGATGAGCCAGGCGATGCGTAAGCTGGCGGGTAACCTGAA  240
+
+Query  1178731  GCAGTCCAACACGCTGCTGATCTTCATCAACCAGATCCGTATGAAAATTGGTGTGATGTT  1178790
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  241      GCAGTCCAACACGCTGCTGATCTTCATCAACCAGATCCGTATGAAAATTGGTGTGATGTT  300
+
+Query  1178791  CGGTAACCCGGAAACCACTACTGGTGGTAACGCGCTGAAATTCTACGCCTCTGTTCGTCT  1178850
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  301      CGGTAACCCGGAAACCACTACTGGTGGTAACGCGCTGAAATTCTACGCCTCTGTTCGTCT  360
+
+Query  1178851  CGATATCCGTCGTATCGGCGCGGTGAAAGAGGGCGAAAACGTGGTGGGTAGCGAAACCCG  1178910
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  361      CGATATCCGTCGTATCGGCGCGGTGAAAGAGGGCGAAAACGTGGTGGGTAGCGAAACCCG  420
+
+Query  1178911  CGTGAAAGTGGTGAAGAACAAAATCGCTGCGCCGTTTAAACAGGCTGAATTCCAGATCCT  1178970
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  421      CGTGAAAGTGGTGAAGAACAAAATCGCTGCGCCGTTTAAACAGGCTGAATTCCAGATCCT  480
+
+Query  1178971  CTACGGCGAAGGTATCAACTTCTACGGCGA  1179000
+                ||||||||||||||||||||||||||||||
+Sbjct  481      CTACGGCGAAGGTATCAACTTCTACGGCGA  510
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 1391556318880
+
+
+Query= CP026491.1 Escherichia coli strain HS13-1 chromosome, complete
+genome
+
+Length=5087117
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  recA_26                                                             942     0.0  
+  recA_576                                                            937     0.0  
+  recA_396                                                            937     0.0  
+  recA_367                                                            937     0.0  
+  recA_318                                                            937     0.0  
+
+
+> recA_26
+Length=510
+
+ Score = 942 bits (510),  Expect = 0.0
+ Identities = 510/510 (100%), Gaps = 0/510 (0%)
+ Strand=Plus/Minus
+
+Query  1606254  TCGCCGTAGAAGTTGATACCTTCGCCGTAGAGGATCTGGAATTCAGCCTGTTTAAACGGC  1606313
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  510      TCGCCGTAGAAGTTGATACCTTCGCCGTAGAGGATCTGGAATTCAGCCTGTTTAAACGGC  451
+
+Query  1606314  GCAGCGATTTTGTTCTTCACCACTTTCACGCGGGTTTCGCTACCCACCACGTTTTCGCCC  1606373
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  450      GCAGCGATTTTGTTCTTCACCACTTTCACGCGGGTTTCGCTACCCACCACGTTTTCGCCC  391
+
+Query  1606374  TCTTTCACCGCGCCGATACGACGGATATCGAGACGAACAGAGGCGTAGAATTTCAGCGCG  1606433
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  390      TCTTTCACCGCGCCGATACGACGGATATCGAGACGAACAGAGGCGTAGAATTTCAGCGCG  331
+
+Query  1606434  TTACCACCAGTAGTGGTTTCCGGGTTACCGAACATCACACCAATTTTCATACGGATCTGG  1606493
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  330      TTACCACCAGTAGTGGTTTCCGGGTTACCGAACATCACACCAATTTTCATACGGATCTGG  271
+
+Query  1606494  TTGATGAAGATCAGCAGCGTGTTGGACTGCTTCAGGTTACCCGCCAGCTTACGCATCGCC  1606553
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  270      TTGATGAAGATCAGCAGCGTGTTGGACTGCTTCAGGTTACCCGCCAGCTTACGCATCGCC  211
+
+Query  1606554  TGGCTCATCATACGTGCCGCAAGGCCCATGTGAGAGTCGCCGATTTCGCCTTCGATTTCC  1606613
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  210      TGGCTCATCATACGTGCCGCAAGGCCCATGTGAGAGTCGCCGATTTCGCCTTCGATTTCC  151
+
+Query  1606614  GCTTTCGGCGTCAGTGCCGCCACGGAGTCAACGACGATAACGTCTACTGCGCCAGAACGT  1606673
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  150      GCTTTCGGCGTCAGTGCCGCCACGGAGTCAACGACGATAACGTCTACTGCGCCAGAACGT  91
+
+Query  1606674  GCCAGGGCGTCACAGATTTCCAGTGCCTGCTCGCCGGTATCCGGCTGGGAGCACAGCAGG  1606733
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  90       GCCAGGGCGTCACAGATTTCCAGTGCCTGCTCGCCGGTATCCGGCTGGGAGCACAGCAGG  31
+
+Query  1606734  TTGTCGATATCAACGCCCAGTTTACGTGCG  1606763
+                ||||||||||||||||||||||||||||||
+Sbjct  30       TTGTCGATATCAACGCCCAGTTTACGTGCG  1
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 1443664703520
+
+
+Query= CP012633.1 Escherichia coli strain SF-166, complete genome
+
+Length=4910962
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  recA_26                                                             942     0.0  
+  recA_576                                                            937     0.0  
+  recA_396                                                            937     0.0  
+  recA_367                                                            937     0.0  
+  recA_318                                                            937     0.0  
+
+
+> recA_26
+Length=510
+
+ Score = 942 bits (510),  Expect = 0.0
+ Identities = 510/510 (100%), Gaps = 0/510 (0%)
+ Strand=Plus/Plus
+
+Query  1190411  CGCACGTAAACTGGGCGTTGATATCGACAACCTGCTGTGCTCCCAGCCGGATACCGGCGA  1190470
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1        CGCACGTAAACTGGGCGTTGATATCGACAACCTGCTGTGCTCCCAGCCGGATACCGGCGA  60
+
+Query  1190471  GCAGGCACTGGAAATCTGTGACGCCCTGGCACGTTCTGGCGCAGTAGACGTTATCGTCGT  1190530
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  61       GCAGGCACTGGAAATCTGTGACGCCCTGGCACGTTCTGGCGCAGTAGACGTTATCGTCGT  120
+
+Query  1190531  TGACTCCGTGGCGGCACTGACGCCGAAAGCGGAAATCGAAGGCGAAATCGGCGACTCTCA  1190590
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  121      TGACTCCGTGGCGGCACTGACGCCGAAAGCGGAAATCGAAGGCGAAATCGGCGACTCTCA  180
+
+Query  1190591  CATGGGCCTTGCGGCACGTATGATGAGCCAGGCGATGCGTAAGCTGGCGGGTAACCTGAA  1190650
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  181      CATGGGCCTTGCGGCACGTATGATGAGCCAGGCGATGCGTAAGCTGGCGGGTAACCTGAA  240
+
+Query  1190651  GCAGTCCAACACGCTGCTGATCTTCATCAACCAGATCCGTATGAAAATTGGTGTGATGTT  1190710
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  241      GCAGTCCAACACGCTGCTGATCTTCATCAACCAGATCCGTATGAAAATTGGTGTGATGTT  300
+
+Query  1190711  CGGTAACCCGGAAACCACTACTGGTGGTAACGCGCTGAAATTCTACGCCTCTGTTCGTCT  1190770
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  301      CGGTAACCCGGAAACCACTACTGGTGGTAACGCGCTGAAATTCTACGCCTCTGTTCGTCT  360
+
+Query  1190771  CGATATCCGTCGTATCGGCGCGGTGAAAGAGGGCGAAAACGTGGTGGGTAGCGAAACCCG  1190830
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  361      CGATATCCGTCGTATCGGCGCGGTGAAAGAGGGCGAAAACGTGGTGGGTAGCGAAACCCG  420
+
+Query  1190831  CGTGAAAGTGGTGAAGAACAAAATCGCTGCGCCGTTTAAACAGGCTGAATTCCAGATCCT  1190890
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  421      CGTGAAAGTGGTGAAGAACAAAATCGCTGCGCCGTTTAAACAGGCTGAATTCCAGATCCT  480
+
+Query  1190891  CTACGGCGAAGGTATCAACTTCTACGGCGA  1190920
+                ||||||||||||||||||||||||||||||
+Sbjct  481      CTACGGCGAAGGTATCAACTTCTACGGCGA  510
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 1393673676070
+
+
+Query= CP012635.1 Escherichia coli strain SF-088, complete genome
+
+Length=5048243
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  recA_26                                                             942     0.0  
+  recA_576                                                            937     0.0  
+  recA_396                                                            937     0.0  
+  recA_367                                                            937     0.0  
+  recA_318                                                            937     0.0  
+
+
+> recA_26
+Length=510
+
+ Score = 942 bits (510),  Expect = 0.0
+ Identities = 510/510 (100%), Gaps = 0/510 (0%)
+ Strand=Plus/Plus
+
+Query  1179847  CGCACGTAAACTGGGCGTTGATATCGACAACCTGCTGTGCTCCCAGCCGGATACCGGCGA  1179906
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1        CGCACGTAAACTGGGCGTTGATATCGACAACCTGCTGTGCTCCCAGCCGGATACCGGCGA  60
+
+Query  1179907  GCAGGCACTGGAAATCTGTGACGCCCTGGCACGTTCTGGCGCAGTAGACGTTATCGTCGT  1179966
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  61       GCAGGCACTGGAAATCTGTGACGCCCTGGCACGTTCTGGCGCAGTAGACGTTATCGTCGT  120
+
+Query  1179967  TGACTCCGTGGCGGCACTGACGCCGAAAGCGGAAATCGAAGGCGAAATCGGCGACTCTCA  1180026
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  121      TGACTCCGTGGCGGCACTGACGCCGAAAGCGGAAATCGAAGGCGAAATCGGCGACTCTCA  180
+
+Query  1180027  CATGGGCCTTGCGGCACGTATGATGAGCCAGGCGATGCGTAAGCTGGCGGGTAACCTGAA  1180086
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  181      CATGGGCCTTGCGGCACGTATGATGAGCCAGGCGATGCGTAAGCTGGCGGGTAACCTGAA  240
+
+Query  1180087  GCAGTCCAACACGCTGCTGATCTTCATCAACCAGATCCGTATGAAAATTGGTGTGATGTT  1180146
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  241      GCAGTCCAACACGCTGCTGATCTTCATCAACCAGATCCGTATGAAAATTGGTGTGATGTT  300
+
+Query  1180147  CGGTAACCCGGAAACCACTACTGGTGGTAACGCGCTGAAATTCTACGCCTCTGTTCGTCT  1180206
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  301      CGGTAACCCGGAAACCACTACTGGTGGTAACGCGCTGAAATTCTACGCCTCTGTTCGTCT  360
+
+Query  1180207  CGATATCCGTCGTATCGGCGCGGTGAAAGAGGGCGAAAACGTGGTGGGTAGCGAAACCCG  1180266
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  361      CGATATCCGTCGTATCGGCGCGGTGAAAGAGGGCGAAAACGTGGTGGGTAGCGAAACCCG  420
+
+Query  1180267  CGTGAAAGTGGTGAAGAACAAAATCGCTGCGCCGTTTAAACAGGCTGAATTCCAGATCCT  1180326
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  421      CGTGAAAGTGGTGAAGAACAAAATCGCTGCGCCGTTTAAACAGGCTGAATTCCAGATCCT  480
+
+Query  1180327  CTACGGCGAAGGTATCAACTTCTACGGCGA  1180356
+                ||||||||||||||||||||||||||||||
+Sbjct  481      CTACGGCGAAGGTATCAACTTCTACGGCGA  510
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 1432632651060
+
+
+  Database: recA.tfa
+    Posted date:  Apr 11, 2019  9:59 AM
+  Number of letters in database: 300,900
+  Number of sequences in database:  590
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5

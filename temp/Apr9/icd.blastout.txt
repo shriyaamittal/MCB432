@@ -1,0 +1,366 @@
+BLASTN 2.8.1+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: icd.tfa
+           986 sequences; 510,747 total letters
+
+
+
+Query= CP014111.1 Escherichia coli strain FDAARGOS_144 chromosome, complete
+genome
+
+Length=4829687
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  icd_13                                                              957     0.0  
+  icd_1010                                                            952     0.0  
+  icd_1005                                                            952     0.0  
+  icd_956                                                             952     0.0  
+  icd_955                                                             952     0.0  
+
+
+> icd_13
+Length=518
+
+ Score = 957 bits (518),  Expect = 0.0
+ Identities = 518/518 (100%), Gaps = 0/518 (0%)
+ Strand=Plus/Plus
+
+Query  468516  CGACGCTGCAGTCGAGAAAGCCTATAAAGGCGAGCGTAAAATCTCCTGGATGGAAATTTA  468575
+               ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1       CGACGCTGCAGTCGAGAAAGCCTATAAAGGCGAGCGTAAAATCTCCTGGATGGAAATTTA  60
+
+Query  468576  CACCGGTGAAAAATCCACACAGGTTTATGGTCAGGACGTCTGGTTGCCTGCTGAAACCCT  468635
+               ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  61      CACCGGTGAAAAATCCACACAGGTTTATGGTCAGGACGTCTGGTTGCCTGCTGAAACCCT  120
+
+Query  468636  TGATCTGATTCGTGAATATCGCGTTGCCATTAAAGGCCCGCTGACCACTCCGGTTGGTGG  468695
+               ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  121     TGATCTGATTCGTGAATATCGCGTTGCCATTAAAGGCCCGCTGACCACTCCGGTTGGTGG  180
+
+Query  468696  CGGTATTCGCTCTCTGAACGTTGCCCTGCGCCAGGAACTGGATCTCTACATCTGCCTGCG  468755
+               ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  181     CGGTATTCGCTCTCTGAACGTTGCCCTGCGCCAGGAACTGGATCTCTACATCTGCCTGCG  240
+
+Query  468756  TCCGGTACGTTACTATCAGGGCACTCCAAGCCCGGTTAAACACCCTGAACTGACCGATAT  468815
+               ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  241     TCCGGTACGTTACTATCAGGGCACTCCAAGCCCGGTTAAACACCCTGAACTGACCGATAT  300
+
+Query  468816  GGTTATCTTCCGTGAAAACTCGGAAGACATTTATGCGGGTATCGAATGGAAAGCAGACTC  468875
+               ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  301     GGTTATCTTCCGTGAAAACTCGGAAGACATTTATGCGGGTATCGAATGGAAAGCAGACTC  360
+
+Query  468876  TGCCGACGCTGAGAAAGTGATTAAATTCCTGCGTGAAGAGATGGGCGTGAAGAAAATTCG  468935
+               ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  361     TGCCGACGCTGAGAAAGTGATTAAATTCCTGCGTGAAGAGATGGGCGTGAAGAAAATTCG  420
+
+Query  468936  CTTCCCGGAACATTGCGGTATCGGTATTAAGCCGTGTTCGGAAGAAGGCACCAAACGTCT  468995
+               ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  421     CTTCCCGGAACATTGCGGTATCGGTATTAAGCCGTGTTCGGAAGAAGGCACCAAACGTCT  480
+
+Query  468996  GGTTCGTGCAGCGATCGAATACGCAATTGCTAACGATC  469033
+               ||||||||||||||||||||||||||||||||||||||
+Sbjct  481     GGTTCGTGCAGCGATCGAATACGCAATTGCTAACGATC  518
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 2323871569719
+
+
+Query= CP033092.2 Escherichia coli DSM 30083 = JCM 1649 = ATCC 11775
+chromosome, complete genome
+
+Length=4903501
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  icd_37                                                              957     0.0  
+  icd_993                                                             952     0.0  
+  icd_946                                                             952     0.0  
+  icd_945                                                             952     0.0  
+  icd_943                                                             952     0.0  
+
+
+> icd_37
+Length=518
+
+ Score = 957 bits (518),  Expect = 0.0
+ Identities = 518/518 (100%), Gaps = 0/518 (0%)
+ Strand=Plus/Minus
+
+Query  2879858  GATCGTTAGCAATTGCGTATTCGATCGCTGCACGAACCAGACGTTTGGTGCCTTCTTCCG  2879917
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  518      GATCGTTAGCAATTGCGTATTCGATCGCTGCACGAACCAGACGTTTGGTGCCTTCTTCCG  459
+
+Query  2879918  AACACGGCTTAATACCGATACCGCAATGTTCCGGGAAGCGAATTTTCTTCACGCCCATCT  2879977
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  458      AACACGGCTTAATACCGATACCGCAATGTTCCGGGAAGCGAATTTTCTTCACGCCCATCT  399
+
+Query  2879978  CTTCACGCAGGAATTTAATCACTTTCTCAGCGTCGGCAGAGTCTGCTTTCCATTCGATAC  2880037
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  398      CTTCACGCAGGAATTTAATCACTTTCTCAGCGTCGGCAGAGTCTGCTTTCCATTCGATAC  339
+
+Query  2880038  CCGCATAAATGTCTTCCGAGTTTTCACGGAAGATAACCATATCGGTCAGTTCAGGGTGTT  2880097
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  338      CCGCATAAATGTCTTCCGAGTTTTCACGGAAGATAACCATATCGGTCAGTTCAGGGTGTT  279
+
+Query  2880098  TAACCGGGCTTGGAGTGCCCTGATAGTAACGTACCGGACGCAGGCAGATGTAGAGATCCA  2880157
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  278      TAACCGGGCTTGGAGTGCCCTGATAGTAACGTACCGGACGCAGGCAGATGTAGAGATCCA  219
+
+Query  2880158  GTTCCTGGCGCAGGGCAACGTTCAGAGAGCGAATACCGCCACCAACCGGAGTGGTCAGCG  2880217
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  218      GTTCCTGGCGCAGGGCAACGTTCAGAGAGCGAATACCGCCACCAACCGGAGTGGTCAGCG  159
+
+Query  2880218  GGCCTTTAATGGCAACGCGATATTCACGAATCAGATCAAGGGTTTCAGCAGGCAACCAGA  2880277
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  158      GGCCTTTAATGGCAACGCGATATTCACGAATCAGATCAAGGGTTTCAGCAGGCAACCAGA  99
+
+Query  2880278  CGTCCTGACCATAAACCTGTGTGGATTTTTCACCGGTGTAAATTTCCATCCAGGAGATTT  2880337
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  98       CGTCCTGACCATAAACCTGTGTGGATTTTTCACCGGTGTAAATTTCCATCCAGGAGATTT  39
+
+Query  2880338  TACGCTCGCCTTTATAGGCTTTCTCAACTGCAGCGTCG  2880375
+                ||||||||||||||||||||||||||||||||||||||
+Sbjct  38       TACGCTCGCCTTTATAGGCTTTCTCAACTGCAGCGTCG  1
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 2359388430657
+
+
+Query= CP026491.1 Escherichia coli strain HS13-1 chromosome, complete
+genome
+
+Length=5087117
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  icd_37                                                              957     0.0  
+  icd_993                                                             952     0.0  
+  icd_946                                                             952     0.0  
+  icd_945                                                             952     0.0  
+  icd_943                                                             952     0.0  
+
+
+> icd_37
+Length=518
+
+ Score = 957 bits (518),  Expect = 0.0
+ Identities = 518/518 (100%), Gaps = 0/518 (0%)
+ Strand=Plus/Plus
+
+Query  4956943  CGACGCTGCAGTTGAGAAAGCCTATAAAGGCGAGCGTAAAATCTCCTGGATGGAAATTTA  4957002
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1        CGACGCTGCAGTTGAGAAAGCCTATAAAGGCGAGCGTAAAATCTCCTGGATGGAAATTTA  60
+
+Query  4957003  CACCGGTGAAAAATCCACACAGGTTTATGGTCAGGACGTCTGGTTGCCTGCTGAAACCCT  4957062
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  61       CACCGGTGAAAAATCCACACAGGTTTATGGTCAGGACGTCTGGTTGCCTGCTGAAACCCT  120
+
+Query  4957063  TGATCTGATTCGTGAATATCGCGTTGCCATTAAAGGCCCGCTGACCACTCCGGTTGGTGG  4957122
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  121      TGATCTGATTCGTGAATATCGCGTTGCCATTAAAGGCCCGCTGACCACTCCGGTTGGTGG  180
+
+Query  4957123  CGGTATTCGCTCTCTGAACGTTGCCCTGCGCCAGGAACTGGATCTCTACATCTGCCTGCG  4957182
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  181      CGGTATTCGCTCTCTGAACGTTGCCCTGCGCCAGGAACTGGATCTCTACATCTGCCTGCG  240
+
+Query  4957183  TCCGGTACGTTACTATCAGGGCACTCCAAGCCCGGTTAAACACCCTGAACTGACCGATAT  4957242
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  241      TCCGGTACGTTACTATCAGGGCACTCCAAGCCCGGTTAAACACCCTGAACTGACCGATAT  300
+
+Query  4957243  GGTTATCTTCCGTGAAAACTCGGAAGACATTTATGCGGGTATCGAATGGAAAGCAGACTC  4957302
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  301      GGTTATCTTCCGTGAAAACTCGGAAGACATTTATGCGGGTATCGAATGGAAAGCAGACTC  360
+
+Query  4957303  TGCCGACGCTGAGAAAGTGATTAAATTCCTGCGTGAAGAGATGGGCGTGAAGAAAATTCG  4957362
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  361      TGCCGACGCTGAGAAAGTGATTAAATTCCTGCGTGAAGAGATGGGCGTGAAGAAAATTCG  420
+
+Query  4957363  CTTCCCGGAACATTGCGGTATCGGTATTAAGCCGTGTTCGGAAGAAGGCACCAAACGTCT  4957422
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  421      CTTCCCGGAACATTGCGGTATCGGTATTAAGCCGTGTTCGGAAGAAGGCACCAAACGTCT  480
+
+Query  4957423  GGTTCGTGCAGCGATCGAATACGCAATTGCTAACGATC  4957460
+                ||||||||||||||||||||||||||||||||||||||
+Sbjct  481      GGTTCGTGCAGCGATCGAATACGCAATTGCTAACGATC  518
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 2447738390529
+
+
+Query= CP012633.1 Escherichia coli strain SF-166, complete genome
+
+Length=4910962
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  icd_37                                                              957     0.0  
+  icd_993                                                             952     0.0  
+  icd_946                                                             952     0.0  
+  icd_945                                                             952     0.0  
+  icd_943                                                             952     0.0  
+
+
+> icd_37
+Length=518
+
+ Score = 957 bits (518),  Expect = 0.0
+ Identities = 518/518 (100%), Gaps = 0/518 (0%)
+ Strand=Plus/Minus
+
+Query  2857355  GATCGTTAGCAATTGCGTATTCGATCGCTGCACGAACCAGACGTTTGGTGCCTTCTTCCG  2857414
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  518      GATCGTTAGCAATTGCGTATTCGATCGCTGCACGAACCAGACGTTTGGTGCCTTCTTCCG  459
+
+Query  2857415  AACACGGCTTAATACCGATACCGCAATGTTCCGGGAAGCGAATTTTCTTCACGCCCATCT  2857474
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  458      AACACGGCTTAATACCGATACCGCAATGTTCCGGGAAGCGAATTTTCTTCACGCCCATCT  399
+
+Query  2857475  CTTCACGCAGGAATTTAATCACTTTCTCAGCGTCGGCAGAGTCTGCTTTCCATTCGATAC  2857534
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  398      CTTCACGCAGGAATTTAATCACTTTCTCAGCGTCGGCAGAGTCTGCTTTCCATTCGATAC  339
+
+Query  2857535  CCGCATAAATGTCTTCCGAGTTTTCACGGAAGATAACCATATCGGTCAGTTCAGGGTGTT  2857594
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  338      CCGCATAAATGTCTTCCGAGTTTTCACGGAAGATAACCATATCGGTCAGTTCAGGGTGTT  279
+
+Query  2857595  TAACCGGGCTTGGAGTGCCCTGATAGTAACGTACCGGACGCAGGCAGATGTAGAGATCCA  2857654
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  278      TAACCGGGCTTGGAGTGCCCTGATAGTAACGTACCGGACGCAGGCAGATGTAGAGATCCA  219
+
+Query  2857655  GTTCCTGGCGCAGGGCAACGTTCAGAGAGCGAATACCGCCACCAACCGGAGTGGTCAGCG  2857714
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  218      GTTCCTGGCGCAGGGCAACGTTCAGAGAGCGAATACCGCCACCAACCGGAGTGGTCAGCG  159
+
+Query  2857715  GGCCTTTAATGGCAACGCGATATTCACGAATCAGATCAAGGGTTTCAGCAGGCAACCAGA  2857774
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  158      GGCCTTTAATGGCAACGCGATATTCACGAATCAGATCAAGGGTTTCAGCAGGCAACCAGA  99
+
+Query  2857775  CGTCCTGACCATAAACCTGTGTGGATTTTTCACCGGTGTAAATTTCCATCCAGGAGATTT  2857834
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  98       CGTCCTGACCATAAACCTGTGTGGATTTTTCACCGGTGTAAATTTCCATCCAGGAGATTT  39
+
+Query  2857835  TACGCTCGCCTTTATAGGCTTTCTCAACTGCAGCGTCG  2857872
+                ||||||||||||||||||||||||||||||||||||||
+Sbjct  38       TACGCTCGCCTTTATAGGCTTTCTCAACTGCAGCGTCG  1
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 2362978417644
+
+
+Query= CP012635.1 Escherichia coli strain SF-088, complete genome
+
+Length=5048243
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  icd_37                                                              957     0.0  
+  icd_993                                                             952     0.0  
+  icd_946                                                             952     0.0  
+  icd_945                                                             952     0.0  
+  icd_943                                                             952     0.0  
+
+
+> icd_37
+Length=518
+
+ Score = 957 bits (518),  Expect = 0.0
+ Identities = 518/518 (100%), Gaps = 0/518 (0%)
+ Strand=Plus/Minus
+
+Query  2854723  GATCGTTAGCAATTGCGTATTCGATCGCTGCACGAACCAGACGTTTGGTGCCTTCTTCCG  2854782
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  518      GATCGTTAGCAATTGCGTATTCGATCGCTGCACGAACCAGACGTTTGGTGCCTTCTTCCG  459
+
+Query  2854783  AACACGGCTTAATACCGATACCGCAATGTTCCGGGAAGCGAATTTTCTTCACGCCCATCT  2854842
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  458      AACACGGCTTAATACCGATACCGCAATGTTCCGGGAAGCGAATTTTCTTCACGCCCATCT  399
+
+Query  2854843  CTTCACGCAGGAATTTAATCACTTTCTCAGCGTCGGCAGAGTCTGCTTTCCATTCGATAC  2854902
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  398      CTTCACGCAGGAATTTAATCACTTTCTCAGCGTCGGCAGAGTCTGCTTTCCATTCGATAC  339
+
+Query  2854903  CCGCATAAATGTCTTCCGAGTTTTCACGGAAGATAACCATATCGGTCAGTTCAGGGTGTT  2854962
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  338      CCGCATAAATGTCTTCCGAGTTTTCACGGAAGATAACCATATCGGTCAGTTCAGGGTGTT  279
+
+Query  2854963  TAACCGGGCTTGGAGTGCCCTGATAGTAACGTACCGGACGCAGGCAGATGTAGAGATCCA  2855022
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  278      TAACCGGGCTTGGAGTGCCCTGATAGTAACGTACCGGACGCAGGCAGATGTAGAGATCCA  219
+
+Query  2855023  GTTCCTGGCGCAGGGCAACGTTCAGAGAGCGAATACCGCCACCAACCGGAGTGGTCAGCG  2855082
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  218      GTTCCTGGCGCAGGGCAACGTTCAGAGAGCGAATACCGCCACCAACCGGAGTGGTCAGCG  159
+
+Query  2855083  GGCCTTTAATGGCAACGCGATATTCACGAATCAGATCAAGGGTTTCAGCAGGCAACCAGA  2855142
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  158      GGCCTTTAATGGCAACGCGATATTCACGAATCAGATCAAGGGTTTCAGCAGGCAACCAGA  99
+
+Query  2855143  CGTCCTGACCATAAACCTGTGTGGATTTTTCACCGGTGTAAATTTCCATCCAGGAGATTT  2855202
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  98       CGTCCTGACCATAAACCTGTGTGGATTTTTCACCGGTGTAAATTTCCATCCAGGAGATTT  39
+
+Query  2855203  TACGCTCGCCTTTATAGGCTTTCTCAACTGCAGCGTCG  2855240
+                ||||||||||||||||||||||||||||||||||||||
+Sbjct  38       TACGCTCGCCTTTATAGGCTTTCTCAACTGCAGCGTCG  1
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 2429033504571
+
+
+  Database: icd.tfa
+    Posted date:  Apr 11, 2019  9:59 AM
+  Number of letters in database: 510,747
+  Number of sequences in database:  986
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5

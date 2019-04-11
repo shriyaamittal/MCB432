@@ -1,0 +1,1 @@
+Accession	st	adk	fumC	gyrB	icd	mdh	purA	recA

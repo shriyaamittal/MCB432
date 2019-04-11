@@ -1,0 +1,13 @@
+adk_13 
+adk_37    
+fumC_38    
+fumC_40 
+gyrB_19     
+icd_13 
+icd_37    
+mdh_17    
+mdh_36 
+purA_11    
+purA_28 
+recA_26    
+recA_30 
