@@ -1,0 +1,48 @@
+# BLASTN 2.8.1+
+# Query: CP014111.1 Escherichia coli strain FDAARGOS_144 chromosome, complete genome
+# Database: O_type.fsa
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, query length, q. start, q. end, subject length, s. start, s. end, evalue, bit score
+# 6 hits found
+CP014111.1	wzx_21_EU296422_O13	99.841	1257	2	0	4829687	1416737	1417993	1257	1257	1	0.0	2311
+CP014111.1	wzx_135_EU296424_O129	99.761	1257	3	0	4829687	1416737	1417993	1257	1257	1	0.0	2305
+CP014111.1	wzx_139_EU296423_O135	99.523	1257	6	0	4829687	1416737	1417993	1257	1257	1	0.0	2289
+CP014111.1	wzy_3_EU296422_O13/O135	99.913	1149	1	0	4829687	1413750	1414898	1149	1149	1	0.0	2117
+CP014111.1	wzy_223_AB972421_O129	98.869	1149	13	0	4829687	1413750	1414898	1149	1149	1	0.0	2050
+CP014111.1	wzy_186_EU296424_O129	98.869	1149	13	0	4829687	1413750	1414898	1149	1149	1	0.0	2050
+# BLASTN 2.8.1+
+# Query: CP033092.2 Escherichia coli DSM 30083 = JCM 1649 = ATCC 11775 chromosome, complete genome
+# Database: O_type.fsa
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, query length, q. start, q. end, subject length, s. start, s. end, evalue, bit score
+# 4 hits found
+CP033092.2	wzx_1_GU299791_O1	100.000	1227	0	0	4903501	1951263	1952489	1227	1	1227	0.0	2266
+CP033092.2	wzy_160_GU299791_O1	99.801	1005	2	0	4903501	1954757	1955761	1005	1	1005	0.0	1845
+CP033092.2	wzx_164_EU294176_O159	100.000	42	0	0	4903501	1947629	1947670	1380	1	42	5.31e-12	78.7
+CP033092.2	wzx_144_AB812060_O140	95.918	49	1	1	4903501	1947629	1947677	1314	1	48	5.31e-12	78.7
+# BLASTN 2.8.1+
+# Query: CP026491.1 Escherichia coli strain HS13-1 chromosome, complete genome
+# Database: O_type.fsa
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, query length, q. start, q. end, subject length, s. start, s. end, evalue, bit score
+# 4 hits found
+CP026491.1	wzx_1_GU299791_O1	100.000	1227	0	0	5087117	836312	837538	1227	1227	1	0.0	2266
+CP026491.1	wzy_160_GU299791_O1	99.801	1005	2	0	5087117	833040	834044	1005	1005	1	0.0	1845
+CP026491.1	wzx_164_EU294176_O159	100.000	42	0	0	5087117	841131	841172	1380	42	1	5.51e-12	78.7
+CP026491.1	wzx_144_AB812060_O140	95.918	49	1	1	5087117	841124	841172	1314	48	1	5.51e-12	78.7
+# BLASTN 2.8.1+
+# Query: CP012633.1 Escherichia coli strain SF-166, complete genome
+# Database: O_type.fsa
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, query length, q. start, q. end, subject length, s. start, s. end, evalue, bit score
+# 4 hits found
+CP012633.1	wzx_1_GU299791_O1	99.919	1227	1	0	4910962	1884694	1885920	1227	1	1227	0.0	2261
+CP012633.1	wzy_160_GU299791_O1	99.801	1005	2	0	4910962	1888188	1889192	1005	1	1005	0.0	1845
+CP012633.1	wzx_164_EU294176_O159	100.000	42	0	0	4910962	1881060	1881101	1380	1	42	5.32e-12	78.7
+CP012633.1	wzx_144_AB812060_O140	95.918	49	1	1	4910962	1881060	1881108	1314	1	48	5.32e-12	78.7
+# BLASTN 2.8.1+
+# Query: CP012635.1 Escherichia coli strain SF-088, complete genome
+# Database: O_type.fsa
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, query length, q. start, q. end, subject length, s. start, s. end, evalue, bit score
+# 4 hits found
+CP012635.1	wzx_1_GU299791_O1	100.000	1227	0	0	5048243	1846923	1848149	1227	1	1227	0.0	2266
+CP012635.1	wzy_160_GU299791_O1	99.801	1005	2	0	5048243	1850417	1851421	1005	1	1005	0.0	1845
+CP012635.1	wzx_164_EU294176_O159	100.000	42	0	0	5048243	1843289	1843330	1380	1	42	5.47e-12	78.7
+CP012635.1	wzx_144_AB812060_O140	95.918	49	1	1	5048243	1843289	1843337	1314	1	48	5.47e-12	78.7
+# BLAST processed 5 queries

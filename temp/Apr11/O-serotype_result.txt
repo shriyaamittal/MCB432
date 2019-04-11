@@ -1,0 +1,76 @@
+Query= CP014111.1 Escherichia coli strain FDAARGOS_144 chromosome, complete
+Length=4829687
+wzx_21_EU296422_O13 _21_EU296422_O13
+Length=1257
+ Identities = 1255/1257 (99%), Gaps = 0/1257 (0%)
+wzx_135_EU296424_O129 _135_EU296424_O129
+Length=1257
+ Identities = 1254/1257 (99%), Gaps = 0/1257 (0%)
+wzx_139_EU296423_O135 _139_EU296423_O135
+Length=1257
+ Identities = 1251/1257 (99%), Gaps = 0/1257 (0%)
+wzy_3_EU296422_O13/O135 _3_EU296422_O13/O135
+Length=1149
+ Identities = 1148/1149 (99%), Gaps = 0/1149 (0%)
+wzy_223_AB972421_O129 _223_AB972421_O129
+Length=1149
+ Identities = 1136/1149 (99%), Gaps = 0/1149 (0%)
+wzy_186_EU296424_O129 _186_EU296424_O129
+Length=1149
+ Identities = 1136/1149 (99%), Gaps = 0/1149 (0%)
+Query= CP033092.2 Escherichia coli DSM 30083 = JCM 1649 = ATCC 11775
+Length=4903501
+wzx_1_GU299791_O1 _1_GU299791_O1
+Length=1227
+ Identities = 1227/1227 (100%), Gaps = 0/1227 (0%)
+wzy_160_GU299791_O1 _160_GU299791_O1
+Length=1005
+ Identities = 1003/1005 (99%), Gaps = 0/1005 (0%)
+wzx_164_EU294176_O159 _164_EU294176_O159
+Length=1380
+ Identities = 42/42 (100%), Gaps = 0/42 (0%)
+wzx_144_AB812060_O140 _144_AB812060_O140
+Length=1314
+ Identities = 47/49 (96%), Gaps = 1/49 (2%)
+Query= CP026491.1 Escherichia coli strain HS13-1 chromosome, complete
+Length=5087117
+wzx_1_GU299791_O1 _1_GU299791_O1
+Length=1227
+ Identities = 1227/1227 (100%), Gaps = 0/1227 (0%)
+wzy_160_GU299791_O1 _160_GU299791_O1
+Length=1005
+ Identities = 1003/1005 (99%), Gaps = 0/1005 (0%)
+wzx_164_EU294176_O159 _164_EU294176_O159
+Length=1380
+ Identities = 42/42 (100%), Gaps = 0/42 (0%)
+wzx_144_AB812060_O140 _144_AB812060_O140
+Length=1314
+ Identities = 47/49 (96%), Gaps = 1/49 (2%)
+Query= CP012633.1 Escherichia coli strain SF-166, complete genome
+Length=4910962
+wzx_1_GU299791_O1 _1_GU299791_O1
+Length=1227
+ Identities = 1226/1227 (99%), Gaps = 0/1227 (0%)
+wzy_160_GU299791_O1 _160_GU299791_O1
+Length=1005
+ Identities = 1003/1005 (99%), Gaps = 0/1005 (0%)
+wzx_164_EU294176_O159 _164_EU294176_O159
+Length=1380
+ Identities = 42/42 (100%), Gaps = 0/42 (0%)
+wzx_144_AB812060_O140 _144_AB812060_O140
+Length=1314
+ Identities = 47/49 (96%), Gaps = 1/49 (2%)
+Query= CP012635.1 Escherichia coli strain SF-088, complete genome
+Length=5048243
+wzx_1_GU299791_O1 _1_GU299791_O1
+Length=1227
+ Identities = 1227/1227 (100%), Gaps = 0/1227 (0%)
+wzy_160_GU299791_O1 _160_GU299791_O1
+Length=1005
+ Identities = 1003/1005 (99%), Gaps = 0/1005 (0%)
+wzx_164_EU294176_O159 _164_EU294176_O159
+Length=1380
+ Identities = 42/42 (100%), Gaps = 0/42 (0%)
+wzx_144_AB812060_O140 _144_AB812060_O140
+Length=1314
+ Identities = 47/49 (96%), Gaps = 1/49 (2%)
