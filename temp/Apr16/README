@@ -1,1 +1,6 @@
+git clone https://git@bitbucket.org/genomicepidemiology/resfinder_db.git
+cat resfinder_db/*.fsa > resgenes.fasta
+
+Use this dataset for further analysis.
+
 Usage: source Script_Apr_16.txt test.5.fasta
