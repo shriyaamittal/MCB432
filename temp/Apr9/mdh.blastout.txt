@@ -336,7 +336,7 @@ Effective search space used: 1547994437388
 
 
   Database: mdh.tfa
-    Posted date:  Apr 11, 2019  9:59 AM
+    Posted date:  Apr 17, 2019  4:03 PM
   Number of letters in database: 327,667
   Number of sequences in database:  725
 

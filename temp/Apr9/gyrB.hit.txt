@@ -1,5 +1,5 @@
-gyrB_19
-gyrB_19
-gyrB_19
-gyrB_19
-gyrB_19
+CP014111.1 gyrB_19
+CP033092.2 gyrB_19
+CP026491.1 gyrB_19
+CP012633.1 gyrB_19
+CP012635.1 gyrB_19

@@ -336,7 +336,7 @@ Effective search space used: 2564562878982
 
 
   Database: fumC.tfa
-    Posted date:  Apr 11, 2019  9:59 AM
+    Posted date:  Apr 17, 2019  4:03 PM
   Number of letters in database: 542,754
   Number of sequences in database:  1,158
 

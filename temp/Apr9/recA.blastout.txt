@@ -356,7 +356,7 @@ Effective search space used: 1432632651060
 
 
   Database: recA.tfa
-    Posted date:  Apr 11, 2019  9:59 AM
+    Posted date:  Apr 17, 2019  4:03 PM
   Number of letters in database: 300,900
   Number of sequences in database:  590
 

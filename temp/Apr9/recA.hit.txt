@@ -1,5 +1,5 @@
-recA_30
-recA_26
-recA_26
-recA_26
-recA_26
+CP014111.1 recA_30
+CP033092.2 recA_26
+CP026491.1 recA_26
+CP012633.1 recA_26
+CP012635.1 recA_26
