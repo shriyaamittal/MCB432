@@ -21,8 +21,10 @@ for p in adk fumC gyrB icd mdh purA recA; do makeblastdb -in $p.tfa -dbtype nucl
 
 # Run for loop from the list "adk fumC gyrB icd mdh purA recA"
 # pick the best hit for assignment of the 7-gene allele
-##for p in adk fumC gyrB icd mdh purA recA; do blastn -db $p.tfa -query $1 -out $p.blastout.txt -num_descriptions 5 -num_alignments 1; awk -v nam=$p '/Query=/{Qu=$2}/>/{print Qu,substr($1,2)}/No hits found/{print Qu,nam"_0"}' <$p.blastout.txt>$p.hit.txt;done
-for p in adk fumC gyrB icd mdh purA recA; do blastn -db $p.tfa -query $1 -out $p.blastout.txt -num_descriptions 5 -num_alignments 1; awk -v nam=$p '/Query=/{Qu=$2}/>/{print Qu=$2}/No hits found/{print Qu,nam"_0"}' <$p.blastout.txt>$p.hit.txt;done
+## for p in adk fumC gyrB icd mdh purA recA; do blastn -db $p.tfa -query $1 -out $p.blastout.txt -num_descriptions 5 -num_alignments 1; awk -v nam=$p '/Query=/{Qu=$2}/>/{print Qu,substr($1,2)}/No hits found/{print Qu,nam"_0"}' <$p.blastout.txt>$p.hit.txt;done
+## for p in adk fumC gyrB icd mdh purA recA; do blastn -db $p.tfa -query $1 -out $p.blastout.txt -num_descriptions 5 -num_alignments 1; awk -v nam=$p '/Query=/{Qu=$2}/>/{print Qu=$2}/No hits found/{print Qu,nam"_0"}' <$p.blastout.txt>$p.hit.txt;done
+
+for p in adk fumC gyrB icd mdh purA recA; do blastn -db $p.tfa -query $1 -out $p.blastout.txt -num_descriptions 5 -num_alignments 1; awk -v nam=$p '/Query=/{Qu=$2}/>/{print Qu,$2}/No hits found/{print Qu,nam"_0"}' <$p.blastout.txt>$p.hit.txt;done
 
 # Step#1: Combine all *.hit.txt lists into one single list
 for p in adk fumC gyrB icd mdh purA recA; do cat $p.hit.txt; done >tmp.1.txt
