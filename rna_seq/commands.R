@@ -15,4 +15,81 @@ BiocManager::install("edgeR", version = "3.8")
 
 library(edgeR)
 
-	
+x <- readDGE(files, columns=c(1,3))
+class(x)
+
+dim(x)
+samplenames <- substring(colnames(x), 12, nchar(colnames(x)))
+samplenames
+
+colnames(x) <- samplenames
+group <- as.factor(c("LP", "ML", "Basal", "Basal", "ML", "LP", "Basal", "ML", "LP"))
+x$samples$group <- group
+lane <- as.factor(rep(c("L004","L006","L008"), c(3,4,2)))
+x$samples$lane <- lane
+x$samples
+
+source("https://bioconductor.org/biocLite.R")
+biocLite("Mus.musculus")
+library("Mus.musculus")
+
+geneid <- rownames(x)
+genes <- select(Mus.musculus, keys=geneid, columns=c("SYMBOL", "TXCHROM"), keytype="ENTREZID")
+##'select()' returned 1:many mapping between keys and columns
+head(genes)
+mat <- match(geneid, genes$ENTREZID)
+genes <- genes[mat,]
+genes[genes$ENTREZID %in% dup,][1:5,]
+## Error in genes$ENTREZID %in% dup : object 'dup' not found
+
+genes[1:5,]
+mat <- match(geneid, genes$ENTREZID)
+genes <- genes[mat,]
+genes[genes$ENTREZID dup,][1:5,]
+## Error: unexpected symbol in "genes[genes$ENTREZID dup"
+
+genes[5360,]
+
+x$genes <- genes
+x
+
+genes[genes$ENTREZID %in% dup,][1:5,]
+## Error in genes$ENTREZID %in% dup : object 'dup' not found
+
+cpm <- cpm(x)
+lcpm <- cpm(x, log=TRUE)
+head(cpm)
+head(lcpm)
+
+table(rowSums(x$counts==0)==9)
+keep.exprs <- rowSums(cpm>1)>=3
+x <- x[keep.exprs,, keep.lib.sizes=FALSE]
+dim(x)
+
+library(RColorBrewer)
+
+## Figure 1
+
+lcpm.cutoff<- log2(10/M +/L)
+nsamples<-ncol(x)
+col<-brewer.pal(nsamples,"Paired")
+par(mfrow=c(1,2))
+plot(density(lcpm[,1]),col=col[1],lwd=2,ylim=c(0,0.26),las=2,main="",xlab="")
+title(main="A. Raw data",xlab="Log-cpm")
+abline(v=lcpm.cutoff,lty=3)
+for (i in 2:nsamples){  
+        den<-density(lcpm[,i])  
+        lines(den$x,den$y,col=col[i],lwd=2)
+}
+legend("topright", samplenames,text.col=col,bty="n")
+lcpm<-cpm(x,log=TRUE)
+plot(density(lcpm[,1]),col=col[1],lwd=2,ylim=c(0,0.26),las=2,main="",xlab="")
+title(main="B. Filtered data",xlab="Log-cpm")
+abline(v=lcpm.cutoff,lty=3)
+for(i in 2:nsamples){  
+        den<-density(lcpm[,i])  
+        lines(den$x, den$y,col=col[i],lwd=2)
+}
+legend("topright", samplenames,text.col=col,bty="n")
+
+
