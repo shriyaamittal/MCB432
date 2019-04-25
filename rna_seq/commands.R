@@ -92,4 +92,27 @@ for(i in 2:nsamples){
 }
 legend("topright", samplenames,text.col=col,bty="n")
 
+## Figure 2 
+
+x<-calcNormFactors(x,method="TMM")x$samples$norm.factors
+x2<-x
+x2$samples$norm.factors<-1x2$counts[,1]<-ceiling(x2$counts[,1]*0.05)
+x2$counts[,2]<-x2$counts[,2]*5
+
+par(mfrow=c(1,2))
+
+lcpm<-cpm(x2,log=TRUE)
+
+boxplot(lcpm,las=2,col=col,main="")
+
+title(main="A. Example: Unnormalised data",ylab="Log-cpm")
+
+x2<-calcNormFactors(x2)
+
+x2$samples$norm.factors
+
+lcpm<-cpm(x2,log=TRUE)
+boxplot(lcpm,las=2,col=col,main="")
+title(main="B. Example: Normalised data",ylab="Log-cpm")
+
 
