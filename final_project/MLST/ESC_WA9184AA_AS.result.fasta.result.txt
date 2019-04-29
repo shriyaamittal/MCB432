@@ -1,0 +1,2 @@
+Accession	st	adk	fumC	gyrB	icd	mdh	purA	recA
+NODE-all	678	6	6	5	136	9	7	7

@@ -1,0 +1,3 @@
+NZ-CP020058.1 1 mdf(A)
+NZ-CP020059.1 9 blaKPC-3 blaTEM-1A aph(6)-Id blaOXA-9 sul2 aph(3'')-Ib aadA1 aac(6')-Ib dfrA14
+NZ-CP020060.1 6 tet(A) sul1 blaTEM-1B aadA2 sul3 dfrA12

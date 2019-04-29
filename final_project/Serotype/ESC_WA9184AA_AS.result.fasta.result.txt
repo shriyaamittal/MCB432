@@ -1,0 +1,2 @@
+Accession       H-Antigen_type  O-Antigen_type 
+NODE-all        fliC_H4         wzx_O104        wzy_O104       

@@ -1,0 +1,2 @@
+Accession       H-Antigen_type  O-Antigen_type 
+CP017446.1      fliC_H7         wzx_O157        wzy_O157       

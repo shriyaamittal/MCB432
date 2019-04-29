@@ -1,0 +1,2 @@
+Accession	st	adk	fumC	gyrB	icd	mdh	purA	recA
+CP017446.1	11	12	12	8	12	15	2	2

@@ -1,0 +1,91 @@
+BLASTN 2.8.1+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: adk.tfa
+           736 sequences; 394,496 total letters
+
+
+
+Query= NODE-all
+
+Length=5362444
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  adk_6                                                               990     0.0  
+  adk_890                                                             985     0.0  
+  adk_858                                                             985     0.0  
+  adk_844                                                             985     0.0  
+  adk_843                                                             985     0.0  
+
+
+> adk_6
+Length=536
+
+ Score = 990 bits (536),  Expect = 0.0
+ Identities = 536/536 (100%), Gaps = 0/536 (0%)
+ Strand=Plus/Plus
+
+Query  2664095  GGGGAAAGGGACTCAGGCTCAGTTCATCATGGAGAAATATGGTATTCCGCAAATCTCCAC  2664154
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1        GGGGAAAGGGACTCAGGCTCAGTTCATCATGGAGAAATATGGTATTCCGCAAATCTCCAC  60
+
+Query  2664155  TGGCGATATGCTGCGTGCTGCGGTCAAATCTGGCTCCGAGCTGGGTAAACAAGCAAAAGA  2664214
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  61       TGGCGATATGCTGCGTGCTGCGGTCAAATCTGGCTCCGAGCTGGGTAAACAAGCAAAAGA  120
+
+Query  2664215  CATTATGGATGCTGGCAAACTGGTCACCGACGAACTGGTGATCGCGCTGGTTAAAGAGCG  2664274
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  121      CATTATGGATGCTGGCAAACTGGTCACCGACGAACTGGTGATCGCGCTGGTTAAAGAGCG  180
+
+Query  2664275  CATTGCTCAGGAAGACTGCCGTAATGGTTTCCTGTTGGACGGCTTCCCGCGTACCATTCC  2664334
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  181      CATTGCTCAGGAAGACTGCCGTAATGGTTTCCTGTTGGACGGCTTCCCGCGTACCATTCC  240
+
+Query  2664335  GCAGGCAGACGCGATGAAAGAAGCGGGCATCAATGTTGATTACGTTCTGGAATTCGACGT  2664394
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  241      GCAGGCAGACGCGATGAAAGAAGCGGGCATCAATGTTGATTACGTTCTGGAATTCGACGT  300
+
+Query  2664395  ACCGGACGAACTGATTGTTGATCGTATCGTAGGCCGCCGCGTTCATGCGCCGTCTGGTCG  2664454
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  301      ACCGGACGAACTGATTGTTGATCGTATCGTAGGCCGCCGCGTTCATGCGCCGTCTGGTCG  360
+
+Query  2664455  TGTTTATCACGTTAAATTCAATCCGCCGAAAGTAGAAGGCAAAGACGACGTTACCGGTGA  2664514
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  361      TGTTTATCACGTTAAATTCAATCCGCCGAAAGTAGAAGGCAAAGACGACGTTACCGGTGA  420
+
+Query  2664515  AGAACTGACTACCCGTAAAGACGATCAGGAAGAAACCGTGCGTAAACGTCTGGTTGAATA  2664574
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  421      AGAACTGACTACCCGTAAAGACGATCAGGAAGAAACCGTGCGTAAACGTCTGGTTGAATA  480
+
+Query  2664575  CCATCAGATGACTGCACCGCTGATCGGCTACTACTCCAAAGAAGCGGAAGCGGGTA  2664630
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  481      CCATCAGATGACTGCACCGCTGATCGGCTACTACTCCAAAGAAGCGGAAGCGGGTA  536
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 1997048772224
+
+
+  Database: adk.tfa
+    Posted date:  Apr 29, 2019  3:54 PM
+  Number of letters in database: 394,496
+  Number of sequences in database:  736
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5

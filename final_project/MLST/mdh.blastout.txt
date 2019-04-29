@@ -1,0 +1,87 @@
+BLASTN 2.8.1+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: mdh.tfa
+           725 sequences; 327,667 total letters
+
+
+
+Query= NODE-all
+
+Length=5362444
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  mdh_9                                                               835     0.0  
+  mdh_786                                                             830     0.0  
+  mdh_762                                                             830     0.0  
+  mdh_750                                                             830     0.0  
+  mdh_744                                                             830     0.0  
+
+
+> mdh_9
+Length=452
+
+ Score = 835 bits (452),  Expect = 0.0
+ Identities = 452/452 (100%), Gaps = 0/452 (0%)
+ Strand=Plus/Minus
+
+Query  143783  CCCATAGACAGGGTTGCAGACCCACCACCGGCTTTCGCTTCAACCACTTCAGTACCTGCG  143842
+               ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  452     CCCATAGACAGGGTTGCAGACCCACCACCGGCTTTCGCTTCAACCACTTCAGTACCTGCG  393
+
+Query  143843  TTCTGGATACGTTTGGTCAGATCAGCCACTTCCTGCTCGGTAAAACTAACGCCAGGAACC  143902
+               ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  392     TTCTGGATACGTTTGGTCAGATCAGCCACTTCCTGCTCGGTAAAACTAACGCCAGGAACC  333
+
+Query  143903  TGTGACAGCAGCGGCAGAATGGTAACACCAGAGTGACCGCCAATAACCGGCACTTCAACT  143962
+               ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  332     TGTGACAGCAGCGGCAGAATGGTAACACCAGAGTGACCGCCAATAACCGGCACTTCAACT  273
+
+Query  143963  TCGCCTGGCTGTTTGCCTTTCAGTTCCGCAACAAAAGTGTTGGAACGAATGATATCCAGC  144022
+               ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  272     TCGCCTGGCTGTTTGCCTTTCAGTTCCGCAACAAAAGTGTTGGAACGAATGATATCCAGC  213
+
+Query  144023  GTGGTAACGCCGAACAGTTTGTTTTTGTCATAAACACCGGCTTTTTTCAGCACTTCAGCA  144082
+               ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  212     GTGGTAACGCCGAACAGTTTGTTTTTGTCATAAACACCGGCTTTTTTCAGCACTTCAGCA  153
+
+Query  144083  GCAATCGCAACTGTGGTGTTAACCGGGTTAGTGATAATACCAATGCACGCTTTCGGGCAG  144142
+               ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  152     GCAATCGCAACTGTGGTGTTAACCGGGTTAGTGATAATACCAATGCACGCTTTCGGGCAG  93
+
+Query  144143  GTTTTCGCAACTTGCTGTACCAGGTTTTTCACGATGCCGGCGTTAACGTTAAACAGGTCG  144202
+               ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  92      GTTTTCGCAACTTGCTGTACCAGGTTTTTCACGATGCCGGCGTTAACGTTAAACAGGTCG  33
+
+Query  144203  GAACGATCCATACCCGGTTTACGCGCTACACC  144234
+               ||||||||||||||||||||||||||||||||
+Sbjct  32      GAACGATCCATACCCGGTTTACGCGCTACACC  1
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 1640453603638
+
+
+  Database: mdh.tfa
+    Posted date:  Apr 29, 2019  3:54 PM
+  Number of letters in database: 327,667
+  Number of sequences in database:  725
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5

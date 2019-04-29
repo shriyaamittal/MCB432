@@ -1,0 +1,13 @@
+Modifying datafiles
+-------------------
+
+For FDAARGOS_74.fasta, ESC_VA1934AA_AS_genomic.fna and ESC_VA2396AA_AS_genomic.fna, change all entries with NZ_CP* as NZ-CP*
+
+For ESC_WA9184AA_AS.result.fasta (scaffolds file), this file needs to be converted into one single continuous fasta entry before analysis.
+
+mv ESC_WA9184AA_AS.result.fasta tmp.txt
+cat tmp.txt | grep -v "NOD" > ESC_WA9184AA_AS.result.fasta
+rm tmp.txt
+After this, add a header line to this file such as,
+>NODE-all
+

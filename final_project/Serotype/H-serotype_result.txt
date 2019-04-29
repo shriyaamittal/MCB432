@@ -1,0 +1,17 @@
+Query= NODE-all
+Length=5362444
+fliC_52_AJ605764_H4 C_52_AJ605764_H4
+Length=1050
+ Identities = 1050/1050 (100%), Gaps = 0/1050 (0%)
+fliC_54_AJ605766_H17 C_54_AJ605766_H17
+Length=1050
+ Identities = 1049/1050 (99%), Gaps = 0/1050 (0%)
+fliC_50_AJ515904_H17 C_50_AJ515904_H17
+Length=1050
+ Identities = 1043/1050 (99%), Gaps = 0/1050 (0%)
+fliC_51_AJ536600_H4 C_51_AJ536600_H4
+Length=1050
+ Identities = 1030/1038 (99%), Gaps = 0/1038 (0%)
+fliC_53_AJ605765_H4 C_53_AJ605765_H4
+Length=1050
+ Identities = 1022/1038 (98%), Gaps = 0/1038 (0%)

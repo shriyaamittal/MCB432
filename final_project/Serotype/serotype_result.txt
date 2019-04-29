@@ -1,0 +1,2 @@
+Accession       H-Antigen_type  O-Antigen_type 
+NZ              CP026098.1_AY249998 CP026098.1_EU296422                

@@ -1,0 +1,87 @@
+BLASTN 2.8.1+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: fumC.tfa
+           1,158 sequences; 542,754 total letters
+
+
+
+Query= NODE-all
+
+Length=5362444
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  fumC_6                                                              867     0.0  
+  fumC_1195                                                           865     0.0  
+  fumC_1268                                                           861     0.0  
+  fumC_1265                                                           861     0.0  
+  fumC_1254                                                           861     0.0  
+
+
+> fumC_6
+Length=469
+
+ Score = 867 bits (469),  Expect = 0.0
+ Identities = 469/469 (100%), Gaps = 0/469 (0%)
+ Strand=Plus/Plus
+
+Query  5117418  CGAGCGCCATTCGGCAGGCGGCGGATGAAGTACTGGCAGGACAGCATGACGACGAATTCC  5117477
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1        CGAGCGCCATTCGGCAGGCGGCGGATGAAGTACTGGCAGGACAGCATGACGACGAATTCC  60
+
+Query  5117478  CGCTGGCTATCTGGCAGACCGGCTCCGGCACGCAAAGTAACATGAACATGAACGAAGTGC  5117537
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  61       CGCTGGCTATCTGGCAGACCGGCTCCGGCACGCAAAGTAACATGAACATGAACGAAGTGC  120
+
+Query  5117538  TGGCTAACCGGGCCAGTGAATTACTCGGCGGCGTGCGCGGGATGGAACGTAAAGTTCACC  5117597
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  121      TGGCTAACCGGGCCAGTGAATTACTCGGCGGCGTGCGCGGGATGGAACGTAAAGTTCACC  180
+
+Query  5117598  CTAACGACGACGTGAACAAAAGCCAAAGTTCCAACGATGTCTTTCCGACGGCGATGCACG  5117657
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  181      CTAACGACGACGTGAACAAAAGCCAAAGTTCCAACGATGTCTTTCCGACGGCGATGCACG  240
+
+Query  5117658  TTGCGGCGCTGCTGGCGCTGCGCAAGCAACTCATTCCGCAGCTTAAAACCCTGACACAGA  5117717
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  241      TTGCGGCGCTGCTGGCGCTGCGCAAGCAACTCATTCCGCAGCTTAAAACCCTGACACAGA  300
+
+Query  5117718  CGCTGAGTGAAAAATCGCGTGCATTTGCCGATATCGTCAAAATCGGTCGAACCCACTTGC  5117777
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  301      CGCTGAGTGAAAAATCGCGTGCATTTGCCGATATCGTCAAAATCGGTCGAACCCACTTGC  360
+
+Query  5117778  AGGACGCCACGCCGCTAACACTAGGGCAGGAGATTTCCGGCTGGGTAGCGATGCTCGAGC  5117837
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  361      AGGACGCCACGCCGCTAACACTAGGGCAGGAGATTTCCGGCTGGGTAGCGATGCTCGAGC  420
+
+Query  5117838  ATAATCTCAAACATATCGAATACAGCCTGCCTCACGTAGCGGAACTGGC  5117886
+                |||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  421      ATAATCTCAAACATATCGAATACAGCCTGCCTCACGTAGCGGAACTGGC  469
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 2724181385796
+
+
+  Database: fumC.tfa
+    Posted date:  Apr 29, 2019  3:54 PM
+  Number of letters in database: 542,754
+  Number of sequences in database:  1,158
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5

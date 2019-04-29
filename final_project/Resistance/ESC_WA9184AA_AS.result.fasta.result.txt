@@ -1,0 +1,1 @@
+NODE-all 9 tet(A) mdf(A) blaCTX-M-15 blaTEM-1B aph(6)-Id sul2 aph(3'')-Ib sul1 dfrA7

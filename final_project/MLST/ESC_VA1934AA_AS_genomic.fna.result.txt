@@ -1,0 +1,2 @@
+Accession	st	adk	fumC	gyrB	icd	mdh	purA	recA
+NZ-CP033401.1	410	6	4	12	1	20	18	7

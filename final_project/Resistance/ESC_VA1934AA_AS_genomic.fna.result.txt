@@ -1,0 +1,5 @@
+NZ-CP033401.1 2 mdf(A) blaCMY-2
+NZ-CP033397.1 1 none
+NZ-CP033398.1 1 none
+NZ-CP033399.1 1 blaNDM-5
+NZ-CP033400.1 13 tet(B) mph(A) sul1 blaTEM-1B blaTEM-1B aac(3)-IId aph(6)-Id blaOXA-1 sul2 aph(3'')-Ib aadA5 aac(6')-Ib-cr dfrA17

@@ -1,0 +1,91 @@
+BLASTN 2.8.1+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: icd.tfa
+           986 sequences; 510,747 total letters
+
+
+
+Query= NODE-all
+
+Length=5362444
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  icd_136                                                             957     0.0  
+  icd_18                                                              952     0.0  
+  icd_628                                                             948     0.0  
+  icd_77                                                              948     0.0  
+  icd_1037                                                            946     0.0  
+
+
+> icd_136
+Length=518
+
+ Score = 957 bits (518),  Expect = 0.0
+ Identities = 518/518 (100%), Gaps = 0/518 (0%)
+ Strand=Plus/Minus
+
+Query  4578779  GGTCGTTGGCAATTGCGTATTCAATCGCGGCACGGACCAGACGTTTGCTGCCTTCTTCAG  4578838
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  518      GGTCGTTGGCAATTGCGTATTCAATCGCGGCACGGACCAGACGTTTGCTGCCTTCTTCAG  459
+
+Query  4578839  AACACGGCTTGATACCGATACCGCAATGTTCCGGGAAGCGAATTTTCTTCACGCCCATCT  4578898
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  458      AACACGGCTTGATACCGATACCGCAATGTTCCGGGAAGCGAATTTTCTTCACGCCCATCT  399
+
+Query  4578899  CTTCACGCAGGAATTTAATCACTTTCTCGGCGTCGGCAGAGTCTGCTTTCCATTCGATAC  4578958
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  398      CTTCACGCAGGAATTTAATCACTTTCTCGGCGTCGGCAGAGTCTGCTTTCCATTCGATAC  339
+
+Query  4578959  CCGCATAAATGTCTTCCGAGTTTTCACGGAAGATAACCATATCGGTCAGTTCAGGGTGTT  4579018
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  338      CCGCATAAATGTCTTCCGAGTTTTCACGGAAGATAACCATATCGGTCAGTTCAGGGTGTT  279
+
+Query  4579019  TAACCGGGCTTGGAGTGCCTTGATAGTAACGTACCGGACGCAGGCAGATGTAGAGATCCA  4579078
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  278      TAACCGGGCTTGGAGTGCCTTGATAGTAACGTACCGGACGCAGGCAGATGTAGAGATCCA  219
+
+Query  4579079  GTTCCTGGCGCAGGGCAACGTTCAGAGAGCGAATACCGCCACCAACAGGAGTGGTCAGCG  4579138
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  218      GTTCCTGGCGCAGGGCAACGTTCAGAGAGCGAATACCGCCACCAACAGGAGTGGTCAGCG  159
+
+Query  4579139  GACCTTTAATGGCAACGCGATATTCACGAATCAGATCAAGGGTTTCAGCAGGCAGCCAGA  4579198
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  158      GACCTTTAATGGCAACGCGATATTCACGAATCAGATCAAGGGTTTCAGCAGGCAGCCAGA  99
+
+Query  4579199  CATCCTGACCATAAACCTGTGTGGATTTTTCACCGGTGTAAATTTCCATCCAGGAGATTT  4579258
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  98       CATCCTGACCATAAACCTGTGTGGATTTTTCACCGGTGTAAATTTCCATCCAGGAGATTT  39
+
+Query  4579259  TACGCTCGCCTTTATAGGCTTTCTCGACTGCAGCGTCG  4579296
+                ||||||||||||||||||||||||||||||||||||||
+Sbjct  38       TACGCTCGCCTTTATAGGCTTTCTCGACTGCAGCGTCG  1
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 2580216657138
+
+
+  Database: icd.tfa
+    Posted date:  Apr 29, 2019  3:54 PM
+  Number of letters in database: 510,747
+  Number of sequences in database:  986
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5

@@ -1,0 +1,91 @@
+BLASTN 2.8.1+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: recA.tfa
+           590 sequences; 300,900 total letters
+
+
+
+Query= NODE-all
+
+Length=5362444
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  recA_7                                                              942     0.0  
+  recA_648                                                            937     0.0  
+  recA_646                                                            937     0.0  
+  recA_628                                                            937     0.0  
+  recA_619                                                            937     0.0  
+
+
+> recA_7
+Length=510
+
+ Score = 942 bits (510),  Expect = 0.0
+ Identities = 510/510 (100%), Gaps = 0/510 (0%)
+ Strand=Plus/Plus
+
+Query  1042706  CGCACGTAAACTGGGCGTCGATATCGATAACCTGCTGTGCTCCCAGCCGGACACCGGCGA  1042765
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1        CGCACGTAAACTGGGCGTCGATATCGATAACCTGCTGTGCTCCCAGCCGGACACCGGCGA  60
+
+Query  1042766  GCAGGCACTGGAAATCTGTGACGCCCTGGCGCGTTCTGGCGCAGTAGACGTTATCGTCGT  1042825
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  61       GCAGGCACTGGAAATCTGTGACGCCCTGGCGCGTTCTGGCGCAGTAGACGTTATCGTCGT  120
+
+Query  1042826  TGACTCCGTGGCGGCACTGACGCCGAAAGCGGAAATCGAAGGCGAAATCGGCGACTCTCA  1042885
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  121      TGACTCCGTGGCGGCACTGACGCCGAAAGCGGAAATCGAAGGCGAAATCGGCGACTCTCA  180
+
+Query  1042886  CATGGGCCTTGCGGCACGTATGATGAGCCAGGCGATGCGTAAGCTGGCGGGTAACCTGAA  1042945
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  181      CATGGGCCTTGCGGCACGTATGATGAGCCAGGCGATGCGTAAGCTGGCGGGTAACCTGAA  240
+
+Query  1042946  GCAGTCCAACACGCTGCTGATCTTCATCAACCAGATCCGTATGAAAATTGGTGTGATGTT  1043005
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  241      GCAGTCCAACACGCTGCTGATCTTCATCAACCAGATCCGTATGAAAATTGGTGTGATGTT  300
+
+Query  1043006  CGGTAACCCGGAAACCACTACCGGTGGTAACGCGCTGAAATTCTACGCCTCTGTTCGTCT  1043065
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  301      CGGTAACCCGGAAACCACTACCGGTGGTAACGCGCTGAAATTCTACGCCTCTGTTCGTCT  360
+
+Query  1043066  CGACATCCGTCGTATCGGCGCGGTGAAAGAGGGCGAAAACGTGGTGGGTAGCGAAACCCG  1043125
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  361      CGACATCCGTCGTATCGGCGCGGTGAAAGAGGGCGAAAACGTGGTGGGTAGCGAAACCCG  420
+
+Query  1043126  CGTGAAAGTGGTGAAGAACAAAATCGCTGCACCGTTTAAACAGGCTGAATTTCAGATCCT  1043185
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  421      CGTGAAAGTGGTGAAGAACAAAATCGCTGCACCGTTTAAACAGGCTGAATTTCAGATCCT  480
+
+Query  1043186  CTACGGCGAAGGTATCAACTTCTACGGCGA  1043215
+                ||||||||||||||||||||||||||||||
+Sbjct  481      CTACGGCGAAGGTATCAACTTCTACGGCGA  510
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 1521799752850
+
+
+  Database: recA.tfa
+    Posted date:  Apr 29, 2019  3:54 PM
+  Number of letters in database: 300,900
+  Number of sequences in database:  590
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5
