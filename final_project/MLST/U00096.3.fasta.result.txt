@@ -1,0 +1,2 @@
+Accession	st	adk	fumC	gyrB	icd	mdh	purA	recA
+U00096.3	10	10	11	4	8	8	8	2

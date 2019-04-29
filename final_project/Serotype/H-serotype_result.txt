@@ -1,17 +1,21 @@
-Query= NODE-all
-Length=5362444
-fliC_52_AJ605764_H4 C_52_AJ605764_H4
-Length=1050
- Identities = 1050/1050 (100%), Gaps = 0/1050 (0%)
-fliC_54_AJ605766_H17 C_54_AJ605766_H17
-Length=1050
- Identities = 1049/1050 (99%), Gaps = 0/1050 (0%)
-fliC_50_AJ515904_H17 C_50_AJ515904_H17
-Length=1050
- Identities = 1043/1050 (99%), Gaps = 0/1050 (0%)
-fliC_51_AJ536600_H4 C_51_AJ536600_H4
-Length=1050
- Identities = 1030/1038 (99%), Gaps = 0/1038 (0%)
-fliC_53_AJ605765_H4 C_53_AJ605765_H4
-Length=1050
- Identities = 1022/1038 (98%), Gaps = 0/1038 (0%)
+Query= U00096.3 Escherichia coli str. K-12 substr. MG1655, complete genome
+Length=4641652
+fliC_H48_AY250025_H48 C_H48_AY250025_H48
+Length=1497
+ Identities = 1497/1497 (100%), Gaps = 0/1497 (0%)
+fliC_309_AY250003_H20 C_309_AY250003_H20
+Length=1731
+ Identities = 460/491 (94%), Gaps = 0/491 (0%)
+ Identities = 253/281 (90%), Gaps = 4/281 (1%)
+fliC_77_AB028475_H12 C_77_AB028475_H12
+Length=1788
+ Identities = 458/491 (93%), Gaps = 0/491 (0%)
+ Identities = 253/274 (92%), Gaps = 2/274 (1%)
+fliC_91_AY250017_H37 C_91_AY250017_H37
+Length=1686
+ Identities = 458/491 (93%), Gaps = 0/491 (0%)
+ Identities = 247/272 (91%), Gaps = 4/272 (1%)
+fliC_81_AB028476_H23 C_81_AB028476_H23
+Length=1767
+ Identities = 478/524 (91%), Gaps = 0/524 (0%)
+ Identities = 254/281 (90%), Gaps = 2/281 (1%)

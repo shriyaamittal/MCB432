@@ -1,7 +1,7 @@
 # BLASTN 2.8.1+
-# Query: NODE-all
+# Query: U00096.3 Escherichia coli str. K-12 substr. MG1655, complete genome
 # Database: H_type.fsa
 # Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, query length, q. start, q. end, subject length, s. start, s. end, evalue, bit score
 # 1 hits found
-NODE-all	fliC_52_AJ605764_H4	100.000	1050	0	0	5362444	2349729	2350778	1050	1	1050	0.0	1940
+U00096.3	fliC_H48_AY250025_H48	100.000	1497	0	0	4641652	2002110	2003606	1497	1497	1	0.0	2765
 # BLAST processed 1 queries

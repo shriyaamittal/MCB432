@@ -12,57 +12,57 @@ Database: purA.tfa
 
 
 
-Query= NODE-all
+Query= U00096.3 Escherichia coli str. K-12 substr. MG1655, complete genome
 
-Length=5362444
+Length=4641652
                                                                       Score     E
 Sequences producing significant alignments:                          (Bits)  Value
 
-  purA_7                                                              883     0.0  
-  purA_681                                                            878     0.0  
-  purA_671                                                            878     0.0  
-  purA_660                                                            878     0.0  
-  purA_640                                                            878     0.0  
+  purA_8                                                              883     0.0  
+  purA_703                                                            878     0.0  
+  purA_696                                                            878     0.0  
+  purA_692                                                            878     0.0  
+  purA_685                                                            878     0.0  
 
 
-> purA_7
+> purA_8
 Length=478
 
  Score = 883 bits (478),  Expect = 0.0
  Identities = 478/478 (100%), Gaps = 0/478 (0%)
- Strand=Plus/Minus
+ Strand=Plus/Plus
 
-Query  2233692  ACACGAGTTGAGTAAGCTTTGAGGATACCCAGAACATAATCAACATAACGCGGGCCCAGG  2233751
+Query  4405030  ATAACGCGCGTGAGAAAGCGCGTGGCGCGAAAGCGATCGGCACCACCGGTCGTGGTATCG  4405089
                 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
-Sbjct  478      ACACGAGTTGAGTAAGCTTTGAGGATACCCAGAACATAATCAACATAACGCGGGCCCAGG  419
+Sbjct  1        ATAACGCGCGTGAGAAAGCGCGTGGCGCGAAAGCGATCGGCACCACCGGTCGTGGTATCG  60
 
-Query  2233752  CCGGAACCGGTCGCCACGCCACCAGCAGTGGTGTTGGAAGAAGTTACGTACGGATAAGTA  2233811
+Query  4405090  GGCCTGCTTATGAAGATAAAGTAGCACGTCGCGGTCTGCGTGTTGGCGACCTTTTCGACA  4405149
                 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
-Sbjct  418      CCGGAACCGGTCGCCACGCCACCAGCAGTGGTGTTGGAAGAAGTTACGTACGGATAAGTA  359
+Sbjct  61       GGCCTGCTTATGAAGATAAAGTAGCACGTCGCGGTCTGCGTGTTGGCGACCTTTTCGACA  120
 
-Query  2233812  CCGTGGTCGATATCCAGCAGCGTACCCTGCGCACCTTCAAACATGACGAAATCGCCACGC  2233871
+Query  4405150  AAGAAACCTTCGCTGAAAAACTGAAAGAAGTGATGGAATATCACAACTTCCAGTTGGTTA  4405209
                 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
-Sbjct  358      CCGTGGTCGATATCCAGCAGCGTACCCTGCGCACCTTCAAACATGACGAAATCGCCACGC  299
+Sbjct  121      AAGAAACCTTCGCTGAAAAACTGAAAGAAGTGATGGAATATCACAACTTCCAGTTGGTTA  180
 
-Query  2233872  TGACGCGCCTGGTCGAGCAGGTCAGAAACGTCAACCACCATAGAAGTCAGGATGTCGGCA  2233931
+Query  4405210  ACTACTACAAAGCTGAAGCGGTTGATTACCAGAAAGTTCTGGATGATACGATGGCTGTTG  4405269
                 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
-Sbjct  298      TGACGCGCCTGGTCGAGCAGGTCAGAAACGTCAACCACCATAGAAGTCAGGATGTCGGCA  239
+Sbjct  181      ACTACTACAAAGCTGAAGCGGTTGATTACCAGAAAGTTCTGGATGATACGATGGCTGTTG  240
 
-Query  2233932  ACAGCCATCGTATCATCCAGAACTTTCTGGTAATCAACCGCTTCAGCTTTGTAGTAGTTA  2233991
+Query  4405270  CCGACATCCTGACTTCTATGGTGGTTGACGTTTCTGACCTGCTCGACCAGGCGCGTCAGC  4405329
                 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
-Sbjct  238      ACAGCCATCGTATCATCCAGAACTTTCTGGTAATCAACCGCTTCAGCTTTGTAGTAGTTA  179
+Sbjct  241      CCGACATCCTGACTTCTATGGTGGTTGACGTTTCTGACCTGCTCGACCAGGCGCGTCAGC  300
 
-Query  2233992  ACCAACTGGAAGTTGTGATATTCCATCACTTCTTTCAGTTTTTCAGCGAAGGTTTCTTTG  2234051
+Query  4405330  GTGGCGATTTCGTCATGTTTGAAGGTGCGCAGGGTACGCTGCTGGATATCGACCACGGTA  4405389
                 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
-Sbjct  178      ACCAACTGGAAGTTGTGATATTCCATCACTTCTTTCAGTTTTTCAGCGAAGGTTTCTTTG  119
+Sbjct  301      GTGGCGATTTCGTCATGTTTGAAGGTGCGCAGGGTACGCTGCTGGATATCGACCACGGTA  360
 
-Query  2234052  TCGAAAAGGTCGCCAACACGCAGACCGCGACGTGCTACTTTATCTTCATAAGCAGGCCCG  2234111
+Query  4405390  CTTATCCGTACGTAACTTCTTCCAACACCACTGCTGGTGGCGTGGCGACCGGTTCCGGCC  4405449
                 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
-Sbjct  118      TCGAAAAGGTCGCCAACACGCAGACCGCGACGTGCTACTTTATCTTCATAAGCAGGCCCG  59
+Sbjct  361      CTTATCCGTACGTAACTTCTTCCAACACCACTGCTGGTGGCGTGGCGACCGGTTCCGGCC  420
 
-Query  2234112  ATACCACGACCGGTGGTGCCGATCGCTTTCGCGCCACGCGCTTTCTCACGCGCGTTAT  2234169
+Query  4405450  TGGGCCCGCGTTATGTTGATTACGTTCTGGGTATCCTCAAAGCTTACTCCACTCGTGT  4405507
                 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
-Sbjct  58       ATACCACGACCGGTGGTGCCGATCGCTTTCGCGCCACGCGCTTTCTCACGCGCGTTAT  1
+Sbjct  421      TGGGCCCGCGTTATGTTGATTACGTTCTGGGTATCCTCAAAGCTTACTCCACTCGTGT  478
 
 
 
@@ -73,11 +73,11 @@ Gapped
 Lambda      K        H
     1.28    0.460    0.850 
 
-Effective search space used: 1585542484278
+Effective search space used: 1375484634951
 
 
   Database: purA.tfa
-    Posted date:  Apr 29, 2019  3:54 PM
+    Posted date:  Apr 29, 2019  4:05 PM
   Number of letters in database: 315,477
   Number of sequences in database:  660
 

@@ -1,0 +1,2 @@
+Accession       H-Antigen_type  O-Antigen_type 
+U00096.3        fliC_H48        wzx_O16         wzy_O16        

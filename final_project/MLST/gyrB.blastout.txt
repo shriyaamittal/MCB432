@@ -12,57 +12,57 @@ Database: gyrB.tfa
 
 
 
-Query= NODE-all
+Query= U00096.3 Escherichia coli str. K-12 substr. MG1655, complete genome
 
-Length=5362444
+Length=4641652
                                                                       Score     E
 Sequences producing significant alignments:                          (Bits)  Value
 
-  gyrB_5                                                              850     0.0  
-  gyrB_790                                                            845     0.0  
-  gyrB_787                                                            845     0.0  
-  gyrB_754                                                            845     0.0  
-  gyrB_745                                                            845     0.0  
+  gyrB_4                                                              850     0.0  
+  gyrB_138                                                            848     0.0  
+  gyrB_503                                                            846     0.0  
+  gyrB_771                                                            845     0.0  
+  gyrB_758                                                            845     0.0  
 
 
-> gyrB_5
+> gyrB_4
 Length=460
 
  Score = 850 bits (460),  Expect = 0.0
  Identities = 460/460 (100%), Gaps = 0/460 (0%)
- Strand=Plus/Plus
+ Strand=Plus/Minus
 
-Query  855561  GGTCTGCACGGCGTTGGTGTTTCGGTAGTAAACGCCCTGTCGCAAAAACTGGAGCTGGTT  855620
-               ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
-Sbjct  1       GGTCTGCACGGCGTTGGTGTTTCGGTAGTAAACGCCCTGTCGCAAAAACTGGAGCTGGTT  60
+Query  3879321  AGATGTTTTCCTGGAAGCCATCGTTCCACTGCAACGCCACTTCGACGCCAATACCGTCTT  3879380
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  460      AGATGTTTTCCTGGAAGCCATCGTTCCACTGCAACGCCACTTCGACGCCAATACCGTCTT  401
 
-Query  855621  ATCCAGCGCGAGGGTAAAATTCACCGTCAGATCTACGAACACGGTGTACCGCAGGCTCCG  855680
-               ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
-Sbjct  61      ATCCAGCGCGAGGGTAAAATTCACCGTCAGATCTACGAACACGGTGTACCGCAGGCTCCG  120
+Query  3879381  TTTCAGTGGAGAAGTAGAAGATATTCGGGTGGATCGGCGTTTTGTTCTTGTTCAGATATT  3879440
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  400      TTTCAGTGGAGAAGTAGAAGATATTCGGGTGGATCGGCGTTTTGTTCTTGTTCAGATATT  341
 
-Query  855681  CTGGCGGTTACCGGCGAGACTGAAAAAACCGGCACCATGGTGCGTTTCTGGCCCAGCCTC  855740
-               ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
-Sbjct  121     CTGGCGGTTACCGGCGAGACTGAAAAAACCGGCACCATGGTGCGTTTCTGGCCCAGCCTC  180
+Query  3879441  CAACGAACGCCTTGATGCCGCCTTCATAGTGGAAGTGGTCTTCTTTGCCGTCGCGCTTGT  3879500
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  340      CAACGAACGCCTTGATGCCGCCTTCATAGTGGAAGTGGTCTTCTTTGCCGTCGCGCTTGT  281
 
-Query  855741  GAAACCTTCACCAATGTGACCGAGTTCGAATATGAAATTCTGGCGAAACGTCTGCGTGAG  855800
-               ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
-Sbjct  181     GAAACCTTCACCAATGTGACCGAGTTCGAATATGAAATTCTGGCGAAACGTCTGCGTGAG  240
+Query  3879501  CGCGCAGACGAATGGAAACGCCGGAGTTGAGGAACGACAACTCACGCAGACGTTTCGCCA  3879560
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  280      CGCGCAGACGAATGGAAACGCCGGAGTTGAGGAACGACAACTCACGCAGACGTTTCGCCA  221
 
-Query  855801  TTGTCGTTCCTCAACTCCGGCGTTTCCATTCGTCTGCGCGACAAGCGCGACGGCAAAGAA  855860
-               ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
-Sbjct  241     TTGTCGTTCCTCAACTCCGGCGTTTCCATTCGTCTGCGCGACAAGCGCGACGGCAAAGAA  300
+Query  3879561  GAATTTCATATTCGAACTCGGTCACATTGGTGAAGGTTTCGAGGCTGGGCCAGAAACGCA  3879620
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  220      GAATTTCATATTCGAACTCGGTCACATTGGTGAAGGTTTCGAGGCTGGGCCAGAAACGCA  161
 
-Query  855861  GACCACTTCCACTATGAAGGCGGCATCAAGGCGTTCGTTGAATATCTGAACAAGAACAAA  855920
-               ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
-Sbjct  301     GACCACTTCCACTATGAAGGCGGCATCAAGGCGTTCGTTGAATATCTGAACAAGAACAAA  360
+Query  3879621  CCATGGTGCCGGTTTTTTCAGTCTCGCCGGTAACCGCCAGCGGGGCCTGCGGTACACCGT  3879680
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  160      CCATGGTGCCGGTTTTTTCAGTCTCGCCGGTAACCGCCAGCGGGGCCTGCGGTACACCGT  101
 
-Query  855921  ACGCCGATCCACCCGAATATCTTCTACTTCTCCACTGAAAAAGACGGTATTGGCGTCGAA  855980
-               ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
-Sbjct  361     ACGCCGATCCACCCGAATATCTTCTACTTCTCCACTGAAAAAGACGGTATTGGCGTCGAA  420
+Query  3879681  GTTCGTAGATCTGACGGTGAATTTTACCCTCGCGCTGGATAACCAGCTCCAGTTTTTGCG  3879740
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  100      GTTCGTAGATCTGACGGTGAATTTTACCCTCGCGCTGGATAACCAGCTCCAGTTTTTGCG  41
 
-Query  855981  GTGGCGTTGCAGTGGAACGATGGCTTCCAGGAAAACATCT  856020
-               ||||||||||||||||||||||||||||||||||||||||
-Sbjct  421     GTGGCGTTGCAGTGGAACGATGGCTTCCAGGAAAACATCT  460
+Query  3879741  ACAGGGCGTTTACTACCGAAACACCAACGCCGTGCAGACC  3879780
+                ||||||||||||||||||||||||||||||||||||||||
+Sbjct  40       ACAGGGCGTTTACTACCGAAACACCAACGCCGTGCAGACC  1
 
 
 
@@ -73,11 +73,11 @@ Gapped
 Lambda      K        H
     1.28    0.460    0.850 
 
-Effective search space used: 1658138845010
+Effective search space used: 1438596782882
 
 
   Database: gyrB.tfa
-    Posted date:  Apr 29, 2019  3:54 PM
+    Posted date:  Apr 29, 2019  4:05 PM
   Number of letters in database: 330,785
   Number of sequences in database:  719
 

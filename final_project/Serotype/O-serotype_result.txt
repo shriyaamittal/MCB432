@@ -1,30 +1,17 @@
-Query= NODE-all
-Length=5362444
-wzx_103_KB021482_O104 _103_KB021482_O104
-Length=1278
- Identities = 1278/1278 (100%), Gaps = 0/1278 (0%)
-wzx_102_AF361371_O104 _102_AF361371_O104
-Length=1296
- Identities = 1290/1296 (99%), Gaps = 0/1296 (0%)
-wzx_104_CP003301_O104 _104_CP003301_O104
-Length=1278
- Identities = 1277/1278 (99%), Gaps = 0/1278 (0%)
-wzx_105_AFPS01000083_O104 _105_AFPS01000083_O104
-Length=1191
- Identities = 1190/1191 (99%), Gaps = 0/1191 (0%)
-wzy_84_AF361371_O104 _84_AF361371_O104
-Length=1113
- Identities = 1109/1113 (99%), Gaps = 0/1113 (0%)
-wzx_106_AFOB02000091_O104 _106_AFOB02000091_O104
-Length=867
- Identities = 867/868 (99%), Gaps = 1/868 (0%)
+Query= U00096.3 Escherichia coli str. K-12 substr. MG1655, complete genome
+Length=4641652
+wzx_23_AB811601_O16 _23_AB811601_O16
+Length=1248
+ Identities = 1248/1248 (100%), Gaps = 0/1248 (0%)
+wzy_5_AB811601_O16 _5_AB811601_O16
+Length=1167
+ Identities = 1167/1167 (100%), Gaps = 0/1167 (0%)
+wzx_164_EU294176_O159 _164_EU294176_O159
+Length=1380
+ Identities = 42/42 (100%), Gaps = 0/42 (0%)
+wzx_144_AB812060_O140 _144_AB812060_O140
+Length=1314
+ Identities = 47/49 (96%), Gaps = 1/49 (2%)
 wzy_222_AB812027_O68 _222_AB812027_O68
 Length=1107
- Identities = 30/31 (97%), Gaps = 0/31 (0%)
- Identities = 28/28 (100%), Gaps = 0/28 (0%)
- Identities = 28/28 (100%), Gaps = 0/28 (0%)
- Identities = 28/28 (100%), Gaps = 0/28 (0%)
- Identities = 28/28 (100%), Gaps = 0/28 (0%)
- Identities = 28/28 (100%), Gaps = 0/28 (0%)
- Identities = 28/28 (100%), Gaps = 0/28 (0%)
  Identities = 28/28 (100%), Gaps = 0/28 (0%)

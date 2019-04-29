@@ -12,57 +12,57 @@ Database: mdh.tfa
 
 
 
-Query= NODE-all
+Query= U00096.3 Escherichia coli str. K-12 substr. MG1655, complete genome
 
-Length=5362444
+Length=4641652
                                                                       Score     E
 Sequences producing significant alignments:                          (Bits)  Value
 
-  mdh_9                                                               835     0.0  
-  mdh_786                                                             830     0.0  
-  mdh_762                                                             830     0.0  
-  mdh_750                                                             830     0.0  
-  mdh_744                                                             830     0.0  
+  mdh_8                                                               835     0.0  
+  mdh_782                                                             830     0.0  
+  mdh_760                                                             830     0.0  
+  mdh_738                                                             830     0.0  
+  mdh_728                                                             830     0.0  
 
 
-> mdh_9
+> mdh_8
 Length=452
 
  Score = 835 bits (452),  Expect = 0.0
  Identities = 452/452 (100%), Gaps = 0/452 (0%)
  Strand=Plus/Minus
 
-Query  143783  CCCATAGACAGGGTTGCAGACCCACCACCGGCTTTCGCTTCAACCACTTCAGTACCTGCG  143842
-               ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
-Sbjct  452     CCCATAGACAGGGTTGCAGACCCACCACCGGCTTTCGCTTCAACCACTTCAGTACCTGCG  393
+Query  3383586  CCCATAGACAGGGTTGCAGACCCGCCACCGGCCTTCGCTTCAACCACTTCAGTACCCGCG  3383645
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  452      CCCATAGACAGGGTTGCAGACCCGCCACCGGCCTTCGCTTCAACCACTTCAGTACCCGCG  393
 
-Query  143843  TTCTGGATACGTTTGGTCAGATCAGCCACTTCCTGCTCGGTAAAACTAACGCCAGGAACC  143902
-               ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
-Sbjct  392     TTCTGGATACGTTTGGTCAGATCAGCCACTTCCTGCTCGGTAAAACTAACGCCAGGAACC  333
+Query  3383646  TTCTGGATGCGTTTGGTCAGATCAGCCACTTCCTGCTCGGTAAAACTAACGCCAGGAACC  3383705
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  392      TTCTGGATGCGTTTGGTCAGATCAGCCACTTCCTGCTCGGTAAAACTAACGCCAGGAACC  333
 
-Query  143903  TGTGACAGCAGCGGCAGAATGGTAACACCAGAGTGACCGCCAATAACCGGCACTTCAACT  143962
-               ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
-Sbjct  332     TGTGACAGCAGCGGCAGAATGGTAACACCAGAGTGACCGCCAATAACCGGCACTTCAACT  273
+Query  3383706  TGTGACAGCAGCGGCAGAATGGTAACACCAGAGTGACCGCCAATAACCGGCACTTCAACT  3383765
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  332      TGTGACAGCAGCGGCAGAATGGTAACACCAGAGTGACCGCCAATAACCGGCACTTCAACT  273
 
-Query  143963  TCGCCTGGCTGTTTGCCTTTCAGTTCCGCAACAAAAGTGTTGGAACGAATGATATCCAGC  144022
-               ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
-Sbjct  272     TCGCCTGGCTGTTTGCCTTTCAGTTCCGCAACAAAAGTGTTGGAACGAATGATATCCAGC  213
+Query  3383766  TCGCCTGGCTGTTTGCCTTTCAGTTCCGCAACAAAGGTGTTGGAACGAATGATATCCAGC  3383825
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  272      TCGCCTGGCTGTTTGCCTTTCAGTTCCGCAACAAAGGTGTTGGAACGAATGATATCCAGC  213
 
-Query  144023  GTGGTAACGCCGAACAGTTTGTTTTTGTCATAAACACCGGCTTTTTTCAGCACTTCAGCA  144082
-               ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
-Sbjct  212     GTGGTAACGCCGAACAGTTTGTTTTTGTCATAAACACCGGCTTTTTTCAGCACTTCAGCA  153
+Query  3383826  GTGGTAACGCCGAACAGTTTGTTTTTGTCATAAACACCGGCTTTTTTCAGCACTTCAGCA  3383885
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  212      GTGGTAACGCCGAACAGTTTGTTTTTGTCATAAACACCGGCTTTTTTCAGCACTTCAGCA  153
 
-Query  144083  GCAATCGCAACTGTGGTGTTAACCGGGTTAGTGATAATACCAATGCACGCTTTCGGGCAG  144142
-               ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
-Sbjct  152     GCAATCGCAACTGTGGTGTTAACCGGGTTAGTGATAATACCAATGCACGCTTTCGGGCAG  93
+Query  3383886  GCAATTGCAACTGTGGTGTTAACCGGGTTAGTGATAATACCAATGCACGCTTTCGGGCAG  3383945
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  152      GCAATTGCAACTGTGGTGTTAACCGGGTTAGTGATAATACCAATGCACGCTTTCGGGCAG  93
 
-Query  144143  GTTTTCGCAACTTGCTGTACCAGGTTTTTCACGATGCCGGCGTTAACGTTAAACAGGTCG  144202
-               ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
-Sbjct  92      GTTTTCGCAACTTGCTGTACCAGGTTTTTCACGATGCCGGCGTTAACGTTAAACAGGTCG  33
+Query  3383946  GTTTTCGCAACTTGCTGTACCAGGTTTTTCACGATGCCGGCGTTAACGTTAAACAGGTCG  3384005
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  92       GTTTTCGCAACTTGCTGTACCAGGTTTTTCACGATGCCGGCGTTAACGTTAAACAGGTCG  33
 
-Query  144203  GAACGATCCATACCCGGTTTACGCGCTACACC  144234
-               ||||||||||||||||||||||||||||||||
-Sbjct  32      GAACGATCCATACCCGGTTTACGCGCTACACC  1
+Query  3384006  GAACGATCCATACCCGGTTTACGCGCTACGCC  3384037
+                ||||||||||||||||||||||||||||||||
+Sbjct  32       GAACGATCCATACCCGGTTTACGCGCTACGCC  1
 
 
 
@@ -73,11 +73,11 @@ Gapped
 Lambda      K        H
     1.28    0.460    0.850 
 
-Effective search space used: 1640453603638
+Effective search space used: 1423316559966
 
 
   Database: mdh.tfa
-    Posted date:  Apr 29, 2019  3:54 PM
+    Posted date:  Apr 29, 2019  4:05 PM
   Number of letters in database: 327,667
   Number of sequences in database:  725
 

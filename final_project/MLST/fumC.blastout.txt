@@ -12,57 +12,57 @@ Database: fumC.tfa
 
 
 
-Query= NODE-all
+Query= U00096.3 Escherichia coli str. K-12 substr. MG1655, complete genome
 
-Length=5362444
+Length=4641652
                                                                       Score     E
 Sequences producing significant alignments:                          (Bits)  Value
 
-  fumC_6                                                              867     0.0  
-  fumC_1195                                                           865     0.0  
-  fumC_1268                                                           861     0.0  
-  fumC_1265                                                           861     0.0  
-  fumC_1254                                                           861     0.0  
+  fumC_11                                                             867     0.0  
+  fumC_1252                                                           861     0.0  
+  fumC_1235                                                           861     0.0  
+  fumC_1219                                                           861     0.0  
+  fumC_1218                                                           861     0.0  
 
 
-> fumC_6
+> fumC_11
 Length=469
 
  Score = 867 bits (469),  Expect = 0.0
  Identities = 469/469 (100%), Gaps = 0/469 (0%)
- Strand=Plus/Plus
+ Strand=Plus/Minus
 
-Query  5117418  CGAGCGCCATTCGGCAGGCGGCGGATGAAGTACTGGCAGGACAGCATGACGACGAATTCC  5117477
+Query  1685912  GCCAGTTCCGCTACGTGAGGCAGGCTGTATTCGATATGTTTGAGATTATGCTCGAGCATC  1685971
                 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
-Sbjct  1        CGAGCGCCATTCGGCAGGCGGCGGATGAAGTACTGGCAGGACAGCATGACGACGAATTCC  60
+Sbjct  469      GCCAGTTCCGCTACGTGAGGCAGGCTGTATTCGATATGTTTGAGATTATGCTCGAGCATC  410
 
-Query  5117478  CGCTGGCTATCTGGCAGACCGGCTCCGGCACGCAAAGTAACATGAACATGAACGAAGTGC  5117537
+Query  1685972  GCTACCCAGCCGGAAATCTCCTGCCCCAGCGTTAACGGCGTGGCATCCTGCAAGTGAGTA  1686031
                 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
-Sbjct  61       CGCTGGCTATCTGGCAGACCGGCTCCGGCACGCAAAGTAACATGAACATGAACGAAGTGC  120
+Sbjct  409      GCTACCCAGCCGGAAATCTCCTGCCCCAGCGTTAACGGCGTGGCATCCTGCAAGTGAGTA  350
 
-Query  5117538  TGGCTAACCGGGCCAGTGAATTACTCGGCGGCGTGCGCGGGATGGAACGTAAAGTTCACC  5117597
+Query  1686032  CGACCAATTTTGACGATATCGGCAAAAGCACGGGATTTCTCATTCAGTGTCTGTGTCAGG  1686091
                 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
-Sbjct  121      TGGCTAACCGGGCCAGTGAATTACTCGGCGGCGTGCGCGGGATGGAACGTAAAGTTCACC  180
+Sbjct  349      CGACCAATTTTGACGATATCGGCAAAAGCACGGGATTTCTCATTCAGTGTCTGTGTCAGG  290
 
-Query  5117598  CTAACGACGACGTGAACAAAAGCCAAAGTTCCAACGATGTCTTTCCGACGGCGATGCACG  5117657
+Query  1686092  GTTTTAAGCTGAGGAATGAGTTGCTTGCGCAGCGCCAGCAGCGCCGCAACGTGCATCGCC  1686151
                 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
-Sbjct  181      CTAACGACGACGTGAACAAAAGCCAAAGTTCCAACGATGTCTTTCCGACGGCGATGCACG  240
+Sbjct  289      GTTTTAAGCTGAGGAATGAGTTGCTTGCGCAGCGCCAGCAGCGCCGCAACGTGCATCGCC  230
 
-Query  5117658  TTGCGGCGCTGCTGGCGCTGCGCAAGCAACTCATTCCGCAGCTTAAAACCCTGACACAGA  5117717
+Query  1686152  GTCGGAAAGACATCGTTGGAACTTTGGCTTTTGTTCACGTCGTCGTTAGGGTGAACTTTA  1686211
                 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
-Sbjct  241      TTGCGGCGCTGCTGGCGCTGCGCAAGCAACTCATTCCGCAGCTTAAAACCCTGACACAGA  300
+Sbjct  229      GTCGGAAAGACATCGTTGGAACTTTGGCTTTTGTTCACGTCGTCGTTAGGGTGAACTTTA  170
 
-Query  5117718  CGCTGAGTGAAAAATCGCGTGCATTTGCCGATATCGTCAAAATCGGTCGAACCCACTTGC  5117777
+Query  1686212  CGTTCCATCCCGCGCACACCGCCGAGTAATTCACTGGCCCGGTTAGCCAGCACTTCGTTC  1686271
                 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
-Sbjct  301      CGCTGAGTGAAAAATCGCGTGCATTTGCCGATATCGTCAAAATCGGTCGAACCCACTTGC  360
+Sbjct  169      CGTTCCATCCCGCGCACACCGCCGAGTAATTCACTGGCCCGGTTAGCCAGCACTTCGTTC  110
 
-Query  5117778  AGGACGCCACGCCGCTAACACTAGGGCAGGAGATTTCCGGCTGGGTAGCGATGCTCGAGC  5117837
+Query  1686272  ATGTTCATGTTACTTTGCGTGCCGGAGCCGGTCTGCCAGATAGCCAGCGGGAATTCGTCG  1686331
                 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
-Sbjct  361      AGGACGCCACGCCGCTAACACTAGGGCAGGAGATTTCCGGCTGGGTAGCGATGCTCGAGC  420
+Sbjct  109      ATGTTCATGTTACTTTGCGTGCCGGAGCCGGTCTGCCAGATAGCCAGCGGGAATTCGTCG  50
 
-Query  5117838  ATAATCTCAAACATATCGAATACAGCCTGCCTCACGTAGCGGAACTGGC  5117886
+Query  1686332  TCATGCTGTCCTGCCAGTACTTCATCCGCCGCCTGACGAATGGCGCTCG  1686380
                 |||||||||||||||||||||||||||||||||||||||||||||||||
-Sbjct  421      ATAATCTCAAACATATCGAATACAGCCTGCCTCACGTAGCGGAACTGGC  469
+Sbjct  49       TCATGCTGTCCTGCCAGTACTTCATCCGCCGCCTGACGAATGGCGCTCG  1
 
 
 
@@ -73,11 +73,11 @@ Gapped
 Lambda      K        H
     1.28    0.460    0.850 
 
-Effective search space used: 2724181385796
+Effective search space used: 2358008958708
 
 
   Database: fumC.tfa
-    Posted date:  Apr 29, 2019  3:54 PM
+    Posted date:  Apr 29, 2019  4:05 PM
   Number of letters in database: 542,754
   Number of sequences in database:  1,158
 
