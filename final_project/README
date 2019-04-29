@@ -16,11 +16,8 @@ https://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/2.8.1/
 1. MLST analysis
 2. Serotype analysis
 3. Antibiotic resistance analysis
-
+4. Virulence analysis, download nucleotide dataset from http://www.mgc.ac.cn/VFs/download.htm
 
 Output files are named as $1.result.txt
-
 Each file analysis takes ~1 minute
-
-
 
