@@ -46,7 +46,6 @@ genes[1:5,]
 mat <- match(geneid, genes$ENTREZID)
 genes <- genes[mat,]
 genes[genes$ENTREZID dup,][1:5,]
-## Error: unexpected symbol in "genes[genes$ENTREZID dup"
 
 genes[5360,]
 
