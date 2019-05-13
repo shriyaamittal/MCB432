@@ -1,5 +1,0 @@
-Download dataset for E Coli #1 from https://pubmlst.org/data/
-Needs files test.3.fasta from course website, this is ~500MB
-Or use test.5.fasta, ~25MB
-
-usage: MLST_finder.2.sh test.5.fasta

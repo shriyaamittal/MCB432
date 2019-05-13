@@ -1,5 +1,0 @@
-CP012633.1	fliC_H7	wzx_O1	wzy_O1
-CP012635.1	fliC_H7	wzx_O1	wzy_O1
-CP014111.1	fliC_H4	wzx_O13	wzy_O13/O135
-CP026491.1	fliC_H7	wzx_O1	wzy_O1
-CP033092.2	fliC_H7	wzx_O1	wzy_O1
